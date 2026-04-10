@@ -11,7 +11,6 @@ No installation required! The project runs directly with Python 3.6+.
 
 ### Running the Application
 ```bash
-cd /home/dido/projects/python/python_quick_robert_oliver/using_math
 python3 main.py
 ```
 
@@ -29,7 +28,7 @@ This documentation suite consists of several interconnected documents:
   - Usage examples and recommendations
   - Extending the project guide
 - **Target Audience**: All users (beginners to advanced)
-- **Location**: `/home/dido/projects/python/python_quick_robert_oliver/using_math/README.md`
+- **Location**: `/home//projects/python/python_quick_robert_oliver/using_math/README.md`
 
 ### 2. **app_documentation.md** (Application Developer Docs)
 - **Purpose**: Detailed technical documentation for developers
@@ -43,7 +42,7 @@ This documentation suite consists of several interconnected documents:
   - Customization guide
   - Troubleshooting
 - **Target Audience**: Developers who want to understand or modify the application
-- **Location**: `/home/dido/projects/python/python_quick_robert_oliver/using_math/docs/app_documentation.md`
+- **Location**: `/home//projects/python/python_quick_robert_oliver/using_math/docs/app_documentation.md`
 
 ### 3. **math_module_documentation.md** (Math Module Guide)
 - **Purpose**: Comprehensive guide to Python's `math` module
@@ -56,7 +55,7 @@ This documentation suite consists of several interconnected documents:
   - Performance considerations
   - Comparison with alternative approaches
 - **Target Audience**: Users wanting to learn mathematical operations in Python
-- **Location**: `/home/dido/projects/python/python_quick_robert_oliver/using_math/docs/math_module_documentation.md`
+- **Location**: `/home//projects/python/python_quick_robert_oliver/using_math/docs/math_module_documentation.md`
 
 ### 4. **chapter_reference.md** (Curriculum Guide)
 - **Purpose**: Quick reference for all 10 learning chapters
@@ -69,7 +68,7 @@ This documentation suite consists of several interconnected documents:
   - Learning path recommendations
   - Module index
 - **Target Audience**: Learners progressing through the curriculum
-- **Location**: `/home/dido/projects/python/python_quick_robert_oliver/using_math/docs/chapter_reference.md`
+- **Location**: `/home//projects/python/python_quick_robert_oliver/using_math/docs/chapter_reference.md`
 
 ## 🗺️ Documentation Navigation
 

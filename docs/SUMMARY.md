@@ -7,7 +7,7 @@ This documentation package has been created to provide comprehensive guidance fo
 ## 🗂️ Complete Document List
 
 ### 1. Main Documentation (README.md)
-**Location:** `/home/dido/projects/python/python_quick_robert_oliver/using_math/README.md`
+**Location:** `/home//projects/python/python_quick_robert_oliver/using_math/README.md`
 
 **Size:** ~700 lines of comprehensive documentation
 
@@ -31,7 +31,7 @@ This documentation package has been created to provide comprehensive guidance fo
 ---
 
 ### 2. Application Documentation (app_documentation.md)
-**Location:** `/home/dido/projects/python/python_quick_robert_oliver/using_math/docs/app_documentation.md`
+**Location:** `/home//projects/python/python_quick_robert_oliver/using_math/docs/app_documentation.md`
 
 **Size:** ~1400 lines of technical reference
 
@@ -61,7 +61,7 @@ This documentation package has been created to provide comprehensive guidance fo
 ---
 
 ### 3. Mathematics Module Documentation (math_module_documentation.md)
-**Location:** `/home/dido/projects/python/python_quick_robert_oliver/using_math/docs/math_module_documentation.md`
+**Location:** `/home//projects/python/python_quick_robert_oliver/using_math/docs/math_module_documentation.md`
 
 **Size:** ~1100 lines of comprehensive math reference
 
@@ -88,7 +88,7 @@ This documentation package has been created to provide comprehensive guidance fo
 ---
 
 ### 4. Chapter Reference Guide (chapter_reference.md)
-**Location:** `/home/dido/projects/python/python_quick_robert_oliver/using_math/docs/chapter_reference.md`
+**Location:** `/home//projects/python/python_quick_robert_oliver/using_math/docs/chapter_reference.md`
 
 **Size:** ~800 lines of curriculum reference
 
@@ -111,7 +111,7 @@ This documentation package has been created to provide comprehensive guidance fo
 ---
 
 ### 5. Documentation Index (index.md)
-**Location:** `/home/dido/projects/python/python_quick_robert_oliver/using_math/docs/index.md`
+**Location:** `/home//projects/python/python_quick_robert_oliver/using_math/docs/index.md`
 
 **Size:** ~500 lines of navigation guide
 
