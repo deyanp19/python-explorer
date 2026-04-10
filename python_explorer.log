@@ -1,0 +1,17 @@
+2026-04-10 16:34:38,962 - INFO - Configuration loaded from config.yaml
+2026-04-10 16:34:38,963 - INFO - Loaded 10 chapters
+2026-04-10 16:34:38,963 - INFO - No progress file found, starting fresh
+2026-04-10 17:33:57,667 - INFO - Configuration loaded from config.yaml
+2026-04-10 17:33:57,668 - INFO - Loaded 10 chapters
+2026-04-10 17:33:57,668 - INFO - No progress file found, starting fresh
+2026-04-10 17:38:08,561 - INFO - Saved progress to user_progress.json
+2026-04-10 17:38:08,561 - INFO - Saved progress to user_progress.json
+2026-04-10 17:38:08,562 - INFO - Session lasted 4.2 minutes
+2026-04-10 17:42:25,250 - INFO - Configuration loaded from config.yaml
+2026-04-10 17:42:25,251 - INFO - Loaded 10 chapters
+2026-04-10 17:42:25,251 - INFO - Loaded progress for user: default
+2026-04-10 17:43:23,090 - INFO - Viewed example zen_of_python in chapter 01
+2026-04-10 17:44:48,708 - INFO - Viewed example dictionaries in chapter 02
+2026-04-10 18:50:19,128 - INFO - Saved progress to user_progress.json
+2026-04-10 18:50:19,129 - INFO - Saved progress to user_progress.json
+2026-04-10 18:50:19,130 - INFO - Session lasted 67.9 minutes

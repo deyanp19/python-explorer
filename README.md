@@ -1,459 +1,544 @@
 # Python Features Explorer
 
-A comprehensive interactive learning platform designed to explore and understand Python programming through hands-on examples and structured content.
+<div align="center">
 
-## 📋 Overview
+**A comprehensive interactive learning system for Python**
 
-**Python Features Explorer** is an interactive CLI application that provides a structured, chapter-based curriculum for learning Python. It combines theoretical content with executable code examples, making it ideal for both beginners and intermediate developers looking to strengthen their Python skills.
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Version](https://img.shields.io/badge/version-2.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-### Key Features
-- **Interactive Menu System**: Navigate through 10 chapters of Python content
-- **Live Code Execution**: Run examples directly from the CLI
-- **Structured Learning**: Progress from basics to advanced topics
-- **Comprehensive Coverage**: Python fundamentals, OOP, concurrency, and standard library
+[Quick Start](#quick-start) • [Features](#features) • [Documentation](#documentation) • [Configuration](#configuration)
 
-## 🚀 Quick Start
+</div>
 
-### Prerequisites
-- Python 3.6 or higher
-- No additional dependencies required
-
-### Running the Application
-
-```bash
-python3 main.py
-```
-
-### Usage
-
-The application presents an interactive menu:
-
-```
-============================================================
-                  PYTHON FEATURES EXPLORER
-============================================================
-1. Ch_1_Introduction
-2. Ch_2_Data_Structures
-3. Ch_3_Control_Flow
-4. Ch_4_Functions
-5. Ch_5_Oop
-6. Ch_6_Exception_Handling
-7. Ch_7_File_Io
-8. Ch_8_Advanced
-9. Ch_9_Concurrency
-10. Ch_10_Stdlib
-
-11. Exit
-```
-
-**How to use:**
-1. Enter a number (1-10) to select a chapter
-2. View the chapter content and available examples
-3. Select an example to run
-4. View the output and error messages
-5. Repeat or choose to exit
-
-### Example Session
-
-```
-Select a chapter (1-11)> 1
-
-CHAPTER 1: CH_1_INTRODUCTION
-Welcome to Python programming! This chapter covers the fundamentals that will set your foundation.
-
-------------------------------------------------------------
-                Available Examples
-------------------------------------------------------------
-1. Hello_World
-2. Comments
-3. Zen_Of_Python
-
-1. Select an example to run (1-3)> 1
-
-Running example: Hello_World
-----------------------------------------
-
-OUTPUT:
-Hello, World!
-
-Example completed with exit code: 0
-```
-
-## 📚 Project Structure
-
-```
-using_math/
-├── main.py                      # Main application entry point
-├── math_examples.py            # Standalone math function examples
-├── generate_chapters.py        # Chapter content generator
-│
-├── content/                    # Documentation files
-│   ├── ch1_intro/README.md    # Chapter 1: Introduction
-│   ├── ch2_data_structures/README.md  # Chapter 2: Data Structures
-│   ├── ch3_control_flow/README.md     # Chapter 3: Control Flow
-│   ├── ch4_functions/README.md        # Chapter 4: Functions
-│   ├── ch5_oop/README.md              # Chapter 5: OOP
-│   ├── ch6_exception_handling/README.md # Chapter 6: Exception Handling
-│   ├── ch7_file_io/README.md          # Chapter 7: File I/O
-│   ├── ch8_advanced/README.md           # Chapter 8: Advanced Features
-│   ├── ch9_concurrency/README.md        # Chapter 9: Concurrency
-│   └── ch10_stdlib/README.md          # Chapter 10: Standard Library
-│
-└── examples/                   # Executable code examples
-    ├── ch1_intro/
-    │   ├── hello_world.py
-    │   ├── zen_of_python.py
-    │   └── comments.py
-    ├── ch2_data_structures/
-    ├── ch3_control_flow/
-    ├── ch4_functions/
-    ├── ch5_oop/
-    ├── ch6_exception_handling/
-    ├── ch7_file_io/
-    ├── ch8_advanced/
-    ├── ch9_concurrency/
-    └── ch10_stdlib/
-```
-
-## 📖 Chapter Curriculum
-
-### Chapter 1: Introduction
-**Topics Covered:**
-- What is Python?
-- Basic syntax and indentation
-- Comments and docstrings
-- The Zen of Python
-
-**Learning Outcomes:**
-- Understand Python's design philosophy
-- Write your first Python program
-- Comment code effectively
-
-### Chapter 2: Data Structures
-**Topics Covered:**
-- Primitive types (int, float, str, bool)
-- Lists (mutable, ordered collections)
-- Tuples (immutable, ordered collections)
-- Sets (unordered, unique elements)
-- Dictionaries (key-value pairs)
-- List comprehensions
-
-**Learning Outcomes:**
-- Choose the appropriate data structure for your needs
-- Manipulate collections efficiently
-- Use comprehensions for cleaner code
-
-### Chapter 3: Control Flow
-**Topics Covered:**
-- Conditional statements (if, elif, else)
-- Loops (for, while)
-- Loop control (break, continue, pass)
-
-**Learning Outcomes:**
-- Implement conditional logic
-- Iterate over data structures
-- Control program flow effectively
-
-### Chapter 4: Functions & Functional Programming
-**Topics Covered:**
-- Function definition and parameters
-- *args and **kwargs
-- Variable scope (LEGB rule)
-- Lambda functions
-- Functional programming (map, filter, reduce)
-
-**Learning Outcomes:**
-- Write reusable, modular code
-- Understand variable scope
-- Use functional programming patterns
-
-### Chapter 5: Object-Oriented Programming
-**Topics Covered:**
-- Classes and objects
-- Dunder methods (__init__, __str__, __repr__, __len__, __add__)
-- Inheritance and polymorphism
-- Encapsulation (private attributes)
-
-**Learning Outcomes:**
-- Design classes and objects
-- Implement inheritance hierarchies
-- Use Python's magic methods effectively
-
-### Chapter 6: Exception Handling
-**Topics Covered:**
-- Try-except blocks
-- Multiple exception handling
-- Finally clause
-- Custom exceptions
-
-**Learning Outcomes:**
-- Handle errors gracefully
-- Create custom exception classes
-- Write robust, error-resistant code
-
-### Chapter 7: File I/O & Context Managers
-**Topics Covered:**
-- Reading and writing files
-- Context managers and the `with` statement
-- Custom context managers
-
-**Learning Outcomes:**
-- Handle files safely and efficiently
-- Create custom context managers
-- Understand resource management
-
-### Chapter 8: Advanced Pythonic Features
-**Topics Covered:**
-- Generators and yield
-- Decorators
-- Type hints
-
-**Learning Outcomes:**
-- Create memory-efficient generators
-- Use decorators to enhance functions
-- Add type annotations for better code clarity
-
-### Chapter 9: Concurrency & Async
-**Topics Covered:**
-- Threading for I/O-bound tasks
-- Multiprocessing for CPU-bound tasks
-- Async/await for modern async programming
-
-**Learning Outcomes:**
-- Understand concurrent programming concepts
-- Choose the right concurrency model
-- Write asynchronous Python code
-
-### Chapter 10: Standard Library Highlights
-**Topics Covered:**
-- collections module (Counter, defaultdict, namedtuple, OrderedDict)
-- itertools module (chain, accumulate, groupby)
-- datetime module
-- os and sys modules
-
-**Learning Outcomes:**
-- Leverage built-in data structures
-- Use itertools for efficient iteration
-- Work with system and datetime operations
-
-## 🛠️ Component Details
-
-### `main.py` - Application Core
-
-The main application that orchestrates the learning experience:
-
-```python
-class PythonExplorer:
-    """Main application class for exploring Python features."""
-```
-
-**Key Methods:**
-- `__init__()`: Initializes and loads chapter data
-- `display_menu()`: Shows the main navigation menu
-- `display_chapter_details()`: Displays chapter content and examples
-- `run_example()`: Executes selected example scripts with output display
-
-### `generate_chapters.py` - Content Generator
-
-A script used to generate and manage chapter documentation. This utility:
-- Creates structured content files
-- Organizes example files by chapter
-- Maintains consistent formatting across all documentation
-
-### `math_examples.py` - Mathematical Operations
-
-A standalone file demonstrating Python's `math` module capabilities:
-
-```python
-# Basic Operations
-print(f"ceil(1.1) = {math.ceil(1.1)}")          # 2
-print(f"floor(1.1) = {math.floor(1.1)}")      # 1
-
-# Trigonometry
-print(f"sin(math.pi/2) = {math.sin(math.pi/2)}")     # 1.0
-print(f"cos(0) = {math.cos(0)}")                      # 1.0
-```
-
-**Functions Demonstrated:**
-- Rounding: `ceil()`, `floor()`, `trunc()`, `round()`
-- Absolute: `fabs()`
-- Modulo: `fmod()`
-- Trigonometry: `sin()`, `cos()`, `tan()`, `asin()`, `acos()`, `atan()`
-- Conversions: `degrees()`, `radians()`
-- Exponential: `pow()`, `sqrt()`, `exp()`, `log()`, `log10()`, `log2()`
-- Geometry: `hypot()`
-- Constants: `math.e`, `math.pi`
-- Special Values: `inf`, `nan`
-
-## 🧪 Testing & Running Examples
-
-### Running Individual Examples
-
-You can run any example script directly:
-
-```bash
-python3 examples/ch1_intro/hello_world.py
-python3 examples/ch5_oop/classes.py
-python3 examples/ch7_file_io/file_operations.py
-```
-
-### Running All Examples
-
-You can create a simple script to run all examples:
-
-```python
-#!/usr/bin/env python3
-"""Run all examples in the project."""
-
-import subprocess
-import os
-from pathlib import Path
-
-examples_dir = Path("examples")
-
-for chapter_dir in examples_dir.iterdir():
-    if chapter_dir.is_dir():
-        print(f"\n{'='*50}")
-        print(f"Running examples from {chapter_dir.name}")
-        print(f"{'='*50}")
-        
-        for example_file in chapter_dir.glob("*.py"):
-            print(f"\n→ {example_file.stem}")
-            print("-" * 40)
-            
-            try:
-                result = subprocess.run(
-                    ["python3", str(example_file)],
-                    capture_output=True,
-                    text=True,
-                    timeout=30
-                )
-                
-                if result.stdout:
-                    print(result.stdout)
-                if result.stderr:
-                    print(f"Errors: {result.stderr}")
-                    
-            except subprocess.TimeoutExpired:
-                print("ERROR: Example timed out")
-            except Exception as e:
-                print(f"ERROR: {e}")
-```
-
-## 🔧 Extending the Project
-
-### Adding a New Chapter
-
-1. **Create content directory:**
-   ```bash
-   mkdir content/ch11_new_topic
-   ```
-
-2. **Create README.md:**
-   ```markdown
-   # Chapter 11: New Topic
-   
-   Description of what this chapter covers.
-   ```
-
-3. **Create examples directory:**
-   ```bash
-   mkdir examples/ch11_new_topic
-   ```
-
-4. **Add example scripts:**
-   ```python
-   # examples/ch11_new_topic/example_one.py
-   print("Example code running...")
-   ```
-
-5. **Restart the application** to see the new chapter appear
-
-### Creating Custom Examples
-
-Follow the pattern used in existing examples:
-- Keep files focused on a single concept
-- Include clear print statements showing output
-- Handle potential errors gracefully
-- Add comments explaining the code
-
-## 📊 Example Code Organization
-
-### Content Files (README.md)
-Each chapter's README.md follows a consistent structure:
-- Chapter title and number
-- Brief introduction
-- Code snippets demonstrating concepts
-- Key points and takeaways
-
-### Example Files
-All example files in the `examples/` directory are:
-- Self-contained and executable
-- Annotated with comments
-- Designed to demonstrate specific concepts
-- Named to clearly indicate their purpose
-
-## 🐍 Python Version Compatibility
-
-This project is designed for **Python 3.6+** and supports:
-- Type hints (3.5+)
-- f-strings (3.6+)
-- Async/await syntax (3.5+)
-- Modern best practices
-
-## 📝 Best Practices Demonstrated
-
-Throughout this project, you'll learn:
-- Writing clean, readable code
-- Proper error handling
-- Using context managers for resource management
-- Object-oriented design principles
-- Functional programming patterns
-- Efficient data structure usage
-- Concurrency best practices
-
-## 🤝 Contributing
-
-To contribute to this project:
-
-1. **Follow existing patterns** - Match the style of current examples
-2. **Keep examples focused** - One concept per file
-3. **Add clear comments** - Explain what the code does
-4. **Test your examples** - Ensure they run without errors
-5. **Update documentation** - Revise README files for new content
-
-## 📄 License
-
-This project is educational material for learning Python. Feel free to use and modify for learning purposes.
-
-## 🎯 Learning Path Recommendations
-
-### For Complete Beginners:
-1. Chapter 1 (Introduction)
-2. Chapter 2 (Data Structures)
-3. Chapter 3 (Control Flow)
-4. Chapter 4 (Functions)
-5. Chapter 5 (OOP)
-
-### For Intermediate Developers:
-1. Chapter 6 (Exception Handling)
-2. Chapter 7 (File I/O)
-3. Chapter 8 (Advanced Features)
-4. Chapter 9 (Concurrency)
-5. Chapter 10 (Standard Library)
-
-### For Quick Reference:
-- Chapter 2 (Data Structures)
-- Chapter 4 (Functions)
-- Chapter 10 (Standard Library)
-
-## 📞 Feedback & Support
-
-This is an educational tool designed for learning. If you find errors, have suggestions for improvement, or want to contribute new examples, please create an issue or pull request.
+**Python Features Explorer** is an interactive command-line application designed to help you learn Python through guided exploration. Navigate through comprehensive chapters, execute working examples, track your progress, and test your knowledge with quizzes.
 
 ---
 
-**Happy Python coding! 🐍**
+## ✨ What's New in Version 2.0.0
 
-*This project demonstrates core Python concepts through practical, executable examples. Each chapter builds upon the previous one, creating a comprehensive learning experience from basics to advanced topics.*
-# python-explorer
+🎯 **Major Updates**
+- 🔍 **Smart Search** - Find chapters by keywords instantly
+- 💾 **Progress Tracking** - Remember where you left off, even after closing
+- 📊 **Statistics Dashboard** - Monitor your learning journey
+- ⭐ **Favorites System** - Bookmark important chapters for quick access
+- 🌚 **Theme Support** - Light/dark/automatic themes for comfortable viewing
+- 📚 **Quiz System** - Test your understanding with interactive quizzes
+- ⚙️ **Configurable Settings** - Custom behavior via `config.yaml`
+- 📝 **Logging & Error Handling** - Better debugging and reliability
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# Install dependencies
+pip install colorama PyYAML
+
+# Run the application
+python main.py
+```
+
+**Features you'll discover immediately:**
+- Search for chapters by typing keywords
+- View your progress and statistics
+- Mark chapters as favorites
+- Take quizzes after completing examples
+- All your progress saved automatically
+
+See the [Quick Start Guide](QUICK_START.md) for detailed setup instructions.
+
+---
+
+## 🎓 Learning Path
+
+The application is organized into **10 comprehensive chapters** covering essential Python concepts:
+
+| # | Topic | Progress |
+|---|-------|----------|
+| 1 | **Introduction to Python** | 📖 Basic concepts, setup, environment |
+| 2 | **Data Types & Variables** | 📖 Variables, types, strings |
+| 3 | **Control Flow** | ♾️ Conditions, loops, flow control |
+| 4 | **Functions** | 📚 Function definitions, parameters, scope |
+| 5 | **Modules & Packages** | 📦 Module system, packages, imports |
+| 6 | **Error Handling** | ⚠️ Exceptions, try-except, debugging |
+| 7 | **Working with Files** | 📁 File I/O, CSV, JSON handling |
+| 8 | **Collections & Iterators** | 📊 Lists, dicts, sets, comprehensions |
+| 9 | **Classes & OOP** | 🏗️ Object-oriented programming, inheritance |
+| 10 | **Advanced Python** | ⚡ Decorators, generators, async |
+
+Each chapter includes:
+- Clear learning objectives
+- Detailed explanations
+- Working examples you can run
+- Quiz questions (when enabled)
+- Progress tracking
+
+---
+
+## 🔥 Key Features
+
+### 🔍 Intelligent Search
+Find specific content instantly:
+```
+Search chapters (press Enter to see all)> os
+```
+Searches chapter titles, descriptions, and examples.
+
+### 💾 Smart Progress Tracking
+- Automatically save your state between sessions
+- Track which examples you've completed
+- Remember quiz scores and ratings
+- Total time spent tracking
+
+### 🎨 Theme Support
+Choose your preferred appearance:
+- **Light mode** - Bright, clear text
+- **Dark mode** - Easier on eyes for long sessions  
+- **Auto-detect** - Matches your system theme
+
+### 📊 Progress Dashboard
+Type `stats` at the main menu to see:
+- Total chapters completed
+- Progress percentage
+- Favorited chapters
+- Examples rated
+- Session time tracked
+
+### ⭐ Favorites System
+Mark important chapters for quick access:
+1. Press `fav` to enable
+2. Favorite chapters appear at the top of the menu
+3. Quick access to challenging material
+
+### 📚 Interactive Quizzes
+Test your knowledge after completing chapters:
+- Multiple choice questions
+- Instant feedback with explanations
+- Pass/fail determination (70% required)
+- Retry attempts available
+
+### ⚙️ Customizable Configuration
+Adjust the application to your needs:
+```yaml
+# config.yaml examples
+execution:
+  timeout_seconds: 60
+
+search:
+  fuzzy_match: true
+
+quizzes:
+  enabled: true
+  passing_score: 75
+```
+
+---
+
+## 📚 Complete Chapter Outline
+
+### Chapter 1: Introduction to Python 🚀
+- What is Python?
+- History and philosophy
+- Installing Python
+- Setting up your development environment
+- Python shell basics
+- First program: Hello World
+- Understanding Python code
+- Comments and documentation
+
+### Chapter 2: Data Types & Variables 📦
+- Variables and data types
+- Primitive data types (int, float, str, bool)
+- Type conversion
+- String manipulation
+- Number formatting
+- Working with bytes
+- Best practices
+
+### Chapter 3: Control Flow ♾️
+- Conditional statements (if, elif, else)
+- Boolean operations
+- Loops (for, while)
+- Loop control (break, continue, pass)
+- Pattern matching (match/case) - Python 3.10+
+- Common patterns
+
+### Chapter 4: Functions 📚
+- Function definitions
+- Parameters and return values
+- Default arguments
+- *args and **kwargs
+- Lambda functions
+- Anonymous functions
+- Function scope
+- Recursive functions
+
+### Chapter 5: Modules & Packages 📦
+- Import system
+- Standard library modules
+- Creating your own modules
+- Package structure
+- Installation and dependencies
+- pip and virtual environments
+- Module discovery
+- Best practices
+
+### Chapter 6: Error Handling ⚠️
+- Exception handling
+- Try-except blocks
+- Custom exceptions
+- Exception chaining
+- Debugging techniques
+- Logging vs exceptions
+- Best practices
+- Error recovery
+
+### Chapter 7: Working with Files 📁
+- Reading and writing files
+- File operations
+- Context managers
+- Path manipulation (os, pathlib)
+- CSV file handling
+- JSON serialization
+- Binary file I/O
+- Working with large files
+
+### Chapter 8: Collections & Iterators 📊
+- Lists and list comprehensions
+- Dictionaries and dict comprehensions
+- Sets and set operations
+- Tuples and namedtuples
+- Iterators and generators
+- itertools module
+- collections module
+- Common data structures
+
+### Chapter 9: Classes & OOP 🏗️
+- Object-oriented programming basics
+- Classes and objects
+- Class methods and static methods
+- Inheritance and polymorphism
+- Special methods (__init__, __str__, etc.)
+- Encapsulation and properties
+- Abstract base classes
+- Design patterns
+
+### Chapter 10: Advanced Python ⚡
+- Decorators (function and class)
+- Generators and coroutines
+- Context managers (with statements)
+- Asyncio and async/await
+- Metaprogramming
+- Type hints
+- Data classes
+- Performance optimization
+
+---
+
+## 🛠️ Installation & Setup
+
+### Install Dependencies
+
+**Option 1: Manual Installation**
+```bash
+pip install colorama PyYAML
+```
+
+**Option 2: Using requirements.txt**
+```bash
+pip install -r requirements.txt
+```
+
+**Option 3: Virtual Environment (Recommended)**
+```bash
+python -m venv explorer_env
+source explorer_env/bin/activate  # On Windows: explorer_env\Scripts\activate.bat
+pip install -r requirements.txt
+```
+
+### Configure the Application
+
+1. **Use defaults** (recommended for beginners):
+   ```bash
+   python main.py
+   ```
+
+2. **Custom configuration**:
+   ```bash
+   cp config.yaml.example config.yaml
+   # Edit config.yaml to your preferences
+   python main.py
+   ```
+
+3. **Generate quizzes**:
+   ```bash
+   python generate_quizzes.py
+   ```
+
+---
+
+## 📖 Command Reference
+
+### Application Commands
+
+| Command | Description |
+|---------|-------------|
+| `1-N` | Select a chapter |
+| `exit`, `quit`, `q` | Exit the application |
+| `help` | Show help message |
+| `stats` | View statistics and progress |
+| `fav` | Toggle favorites mode |
+| `config` | Display current configuration |
+
+### During Examples
+
+| Command | Description |
+|---------|-------------|
+| `1-N` | Select an example to run |
+| `y` | Try quiz (if enabled) |
+
+---
+
+## 🎯 Example Workflow
+
+```
+============================================================
+Welcome to the Python Features Explorer!
+============================================================
+Search chapters (press Enter to see all): python
+Search chapters (press Enter to see all)
+
+===  Python Features Explorer - Chapters  ===
+
+Progress: 0/10 chapters (0%)
+Favorites: 0 of 10
+
+  1. Introduction to Python (1/1 examples)  ☰  ✨
+  2. Data Types & Variables (2/2 examples)  ☰
+  3. Control Flow (5/5 examples)            ☰
+  4. Functions (6/6 examples)               ☰
+  5. Modules & Packages (4/4 examples)      ☰
+  6. Error Handling (4/4 examples)          ☰
+  7. Working with Files (5/5 examples)      ☰
+  8. Collections & Iterators (7/7 examples) ☰
+  9. Classes & OOP (5/5 examples)           ☰
+  10. Advanced Python (6/6 examples)        ☰
+  11. Exit Application
+
+Search chapters (press Enter to see all)
+
+```
+
+**Try these commands:**
+- `python` → Filter to show only Python-related chapters
+- `1` → Enter Chapter 1: Introduction to Python
+- `y` → Try quiz after completing examples
+- `stats` → View your overall progress
+- `fav` → Enable favorite mode
+
+---
+
+## 🔧 Configuration
+
+Advanced customization through `config.yaml`:
+
+```yaml
+# Application settings
+app:
+  name: "Python Features Explorer"
+  version: "2.0.0"
+  debug: false
+
+# Execution settings
+execution:
+  timeout_seconds: 30
+  max_examples_per_session: 0
+  shell: "python3"
+
+# Display preferences
+display:
+  show_descriptions: true
+  show_progress_bars: true
+  content_width: 80
+  wide_separators: false
+
+# Search configuration
+search:
+  fuzzy_match: true
+  min_characters: 2
+  search_scope: "all"
+
+# Progress tracking
+progress:
+  enabled: true
+  storage_file: "user_progress.json"
+  auto_save: true
+
+# Theme settings
+theme:
+  mode: "auto"  # auto, dark, light
+  colors:
+    header: "cyan"
+    chapter_title: "green"
+    example: "blue"
+
+# Quizzes
+quizzes:
+  enabled: true
+  questions_per_chapter: 5
+  passing_score: 70
+  allow_retries: true
+
+# Security
+security:
+  sandbox_mode: false
+  allowed_directories: ["examples"]
+  blocked_functions: ["os.system", "eval", "exec"]
+
+# Logging
+logging:
+  level: "INFO"
+  file: "python_explorer.log"
+  max_size_mb: 10
+```
+
+See [FEATURES.md](FEATURES.md) for complete configuration options.
+
+---
+
+## 📝 Logging & Diagnostics
+
+All activities are logged to `python_explorer.log`:
+- Application startup and shutdown
+- Chapter loading details
+- Examples executed
+- Progress changes
+- Errors and warnings
+
+View logs for troubleshooting:
+```bash
+tail -n 50 python_explorer.log
+```
+
+---
+
+## 🎓 Learning Tips
+
+1. **Complete all examples** - Practice is key to learning
+2. **Take quizzes** - Reinforce concepts
+3. **Track your progress** - Stay motivated with statistics
+4. **Use favorites** - Bookmark important chapters
+5. **Search effectively** - Find concepts quickly
+6. **Review the logs** - Learn from issues and errors
+
+---
+
+## 📋 System Requirements
+
+- **Python**: 3.8 or higher (3.10+ recommended for latest features)
+- **Operating System**: Any OS with Python support (Windows, macOS, Linux)
+- **Disk Space**: Minimal (< 5 MB)
+- **Memory**: Standard requirements for Python execution
+
+---
+
+## 🔍 Search Examples
+
+Searching works on:
+- Chapter titles (e.g., "function", "loop")
+- Descriptions (e.g., "introduction", "basic")
+- Example names (e.g., "math", "json")
+
+**Examples:**
+```bash
+Search chapters> os           # Find all OS-related content
+Search chapters> data        # Find all data type content
+Search chapters> class       # Find OOP content
+Search chapters> loop        # Find control flow content
+```
+
+---
+
+## 🛡️ Security Considerations
+
+This application executes Python scripts, which carry inherent risks:
+
+- **Examples run with your user privileges**
+- **No sandboxing by default** - Scripts have file system access
+- **Review code before execution** - Always read example content
+
+For more details, see [security.md](security.md).
+
+**For production use, we recommend:**
+- Running in a containerized environment
+- Enabling sandbox mode in config
+- Reviewing all example code
+- Using restricted access permissions
+
+---
+
+## 📚 Documentation
+
+- **[README.md](README.md)** - Main documentation and project overview
+- **[QUICK_START.md](QUICK_START.md)** - Step-by-step setup guide
+- **[FEATURES.md](FEATURES.md)** - Detailed feature documentation
+- **[security.md](security.md)** - Security considerations and best practices
+
+---
+
+## 🔄 Version History
+
+### Version 2.0.0 (Current) - April 2024
+**New:** Features mentioned above (search, progress tracking, themes, quizzes, etc.)
+
+### Version 1.0
+- Initial release
+- Basic chapter navigation
+- Example execution
+- Manual progress tracking
+
+---
+
+## 🤝 Contributing
+
+While this is an educational project, contributions are welcome!
+
+**Suggested improvements:**
+- Additional chapters or examples
+- Better search algorithms
+- Enhanced quiz functionality
+- Improved user interface
+- Additional themes
+
+---
+
+## 📧 Support & Feedback
+
+- **Documentation**: See [FEATURES.md](FEATURES.md)
+- **Logging**: Check `python_explorer.log` for issues
+- **Configuration**: Review [FEATURES.md](FEATURES.md) for config options
+- **Issues**: Please report problems through the project's issue tracker
+
+---
+
+## 🎉 Getting Started
+
+1. **Install dependencies**: `pip install colorama PyYAML`
+2. **Run application**: `python main.py`
+3. **Explore chapters**: Browse the content
+4. **Learn by doing**: Execute examples
+5. **Test yourself**: Take quizzes
+
+**Happy Learning!** 🐍
+
+---
+
+<div align="center">
+
+Made with ❤️ for Python learners everywhere
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+</div>

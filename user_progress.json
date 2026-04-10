@@ -1,0 +1,17 @@
+{
+  "username": "default",
+  "completed_chapters": [],
+  "viewed_examples": {
+    "01": [
+      "zen_of_python"
+    ],
+    "02": [
+      "dictionaries"
+    ]
+  },
+  "quiz_scores": {},
+  "example_ratings": {},
+  "favorites": [],
+  "last_session": null,
+  "total_time_spent": 71
+}

@@ -1,0 +1,42 @@
+# Python Features Explorer - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Terminal Colors (for dark mode and colored output)
+colorama==0.4.6
+
+# YAML Configuration Parsing
+pyyaml==6.0.1
+
+# Optional: Better terminal UI (if you want to use rich library instead)
+# rich==13.7.0
+
+# Code quality tools (for optional linting)
+# flake8==6.1.0
+# pylint==3.0.2
+# black==23.12.1
+# isort==5.13.2
+
+# JSON schema validation (for config validation)
+# jsonschema==4.19.0
+# jsonschema-specifications==2023.7.1
+
+# Type hints and static analysis (optional but recommended)
+# mypy==1.7.1
+# types-PyYAML==6.0.12.12
+# types-dataclasses==0.6.6
+
+# Development dependencies
+# pytest==7.4.3
+# pytest-cov==4.1.0
+# pytest-xdist==3.5.0
+
+# Documentation
+# mkdocs==1.5.3
+# mkdocs-material==9.5.4
+
+# Security scanning (optional)
+# bandit==1.7.5
+# safety==2.3.5
+
+# Version of Python required
+# This was tested with Python 3.8+
