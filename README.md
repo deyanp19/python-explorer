@@ -21,7 +21,6 @@ A comprehensive interactive learning platform designed to explore and understand
 ### Running the Application
 
 ```bash
-cd /home/dido/projects/python/python_quick_robert_oliver/using_math
 python3 main.py
 ```
 
