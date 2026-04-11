@@ -15,3 +15,107 @@
 2026-04-10 18:50:19,128 - INFO - Saved progress to user_progress.json
 2026-04-10 18:50:19,129 - INFO - Saved progress to user_progress.json
 2026-04-10 18:50:19,130 - INFO - Session lasted 67.9 minutes
+2026-04-10 18:55:41,724 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,725 - INFO - Loaded 10 chapters
+2026-04-10 18:55:41,725 - INFO - Loaded progress for user: default
+2026-04-10 18:55:41,726 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,726 - ERROR - Content directory not found: content
+2026-04-10 18:55:41,726 - INFO - No progress file found, starting fresh
+2026-04-10 18:55:41,727 - INFO - Config file config.yaml not found, using defaults
+2026-04-10 18:55:41,727 - ERROR - Content directory not found: content
+2026-04-10 18:55:41,727 - INFO - No progress file found, starting fresh
+2026-04-10 18:55:41,727 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,728 - INFO - Loaded 1 chapters
+2026-04-10 18:55:41,728 - INFO - No progress file found, starting fresh
+2026-04-10 18:55:41,728 - ERROR - Example not found: examples/ch01/nonexistent.py
+2026-04-10 18:55:41,733 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,733 - INFO - Loaded 1 chapters
+2026-04-10 18:55:41,733 - INFO - No progress file found, starting fresh
+2026-04-10 18:55:41,734 - INFO - Viewed example simple in chapter 1
+2026-04-10 18:55:41,736 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,736 - INFO - Loaded 1 chapters
+2026-04-10 18:55:41,736 - INFO - Loaded progress for user: test_user
+2026-04-10 18:55:41,737 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,737 - INFO - Loaded 1 chapters
+2026-04-10 18:55:41,737 - INFO - Loaded progress for user: test_user
+2026-04-10 18:55:41,738 - INFO - Saved progress to test_progress.json
+2026-04-10 18:55:41,738 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,738 - INFO - Loaded 1 chapters
+2026-04-10 18:55:41,738 - INFO - Loaded progress for user: test_user
+2026-04-10 18:55:41,739 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,739 - INFO - Loaded 1 chapters
+2026-04-10 18:55:41,739 - INFO - Loaded progress for user: test_user
+2026-04-10 18:55:41,740 - INFO - Saved progress to test_progress.json
+2026-04-10 18:55:41,740 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,741 - INFO - Loaded 1 chapters
+2026-04-10 18:55:41,741 - INFO - No progress file found, starting fresh
+2026-04-10 18:55:41,746 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,746 - INFO - Loaded 1 chapters
+2026-04-10 18:55:41,746 - INFO - No progress file found, starting fresh
+2026-04-10 18:55:41,748 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,748 - ERROR - Content directory not found: content
+2026-04-10 18:55:41,748 - INFO - No progress file found, starting fresh
+2026-04-10 18:55:41,749 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,750 - INFO - Loaded 2 chapters
+2026-04-10 18:55:41,750 - INFO - No progress file found, starting fresh
+2026-04-10 18:55:41,751 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,751 - INFO - Loaded 2 chapters
+2026-04-10 18:55:41,751 - INFO - No progress file found, starting fresh
+2026-04-10 18:55:41,752 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,753 - INFO - Loaded 2 chapters
+2026-04-10 18:55:41,753 - INFO - No progress file found, starting fresh
+2026-04-10 18:55:41,754 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:55:41,754 - INFO - Loaded 2 chapters
+2026-04-10 18:55:41,754 - INFO - No progress file found, starting fresh
+2026-04-10 18:56:31,681 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,682 - INFO - Loaded 10 chapters
+2026-04-10 18:56:31,682 - INFO - Loaded progress for user: default
+2026-04-10 18:56:31,683 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,683 - ERROR - Content directory not found: content
+2026-04-10 18:56:31,683 - INFO - No progress file found, starting fresh
+2026-04-10 18:56:31,684 - INFO - Config file config.yaml not found, using defaults
+2026-04-10 18:56:31,684 - ERROR - Content directory not found: content
+2026-04-10 18:56:31,684 - INFO - No progress file found, starting fresh
+2026-04-10 18:56:31,684 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,685 - INFO - Loaded 1 chapters
+2026-04-10 18:56:31,685 - INFO - No progress file found, starting fresh
+2026-04-10 18:56:31,685 - ERROR - Example not found: examples/ch01/nonexistent.py
+2026-04-10 18:56:31,687 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,687 - INFO - Loaded 1 chapters
+2026-04-10 18:56:31,688 - INFO - No progress file found, starting fresh
+2026-04-10 18:56:31,688 - INFO - Viewed example simple in chapter 1
+2026-04-10 18:56:31,690 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,690 - INFO - Loaded 1 chapters
+2026-04-10 18:56:31,690 - INFO - Loaded progress for user: test_user
+2026-04-10 18:56:31,691 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,691 - INFO - Loaded 1 chapters
+2026-04-10 18:56:31,691 - INFO - Loaded progress for user: test_user
+2026-04-10 18:56:31,691 - INFO - Saved progress to test_progress.json
+2026-04-10 18:56:31,692 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,692 - INFO - Loaded 1 chapters
+2026-04-10 18:56:31,692 - INFO - Loaded progress for user: test_user
+2026-04-10 18:56:31,716 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,717 - INFO - Loaded 1 chapters
+2026-04-10 18:56:31,717 - INFO - Loaded progress for user: test_user
+2026-04-10 18:56:31,718 - INFO - Saved progress to test_progress.json
+2026-04-10 18:56:31,721 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,721 - INFO - Loaded 1 chapters
+2026-04-10 18:56:31,722 - INFO - No progress file found, starting fresh
+2026-04-10 18:56:31,736 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,737 - INFO - Loaded 1 chapters
+2026-04-10 18:56:31,737 - INFO - No progress file found, starting fresh
+2026-04-10 18:56:31,741 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,741 - ERROR - Content directory not found: content
+2026-04-10 18:56:31,741 - INFO - No progress file found, starting fresh
+2026-04-10 18:56:31,743 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,743 - INFO - Loaded 2 chapters
+2026-04-10 18:56:31,744 - INFO - No progress file found, starting fresh
+2026-04-10 18:56:31,746 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,746 - INFO - Loaded 2 chapters
+2026-04-10 18:56:31,746 - INFO - No progress file found, starting fresh
+2026-04-10 18:56:31,749 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,749 - INFO - Loaded 2 chapters
+2026-04-10 18:56:31,749 - INFO - No progress file found, starting fresh
+2026-04-10 18:56:31,751 - INFO - Configuration loaded from config.yaml
+2026-04-10 18:56:31,751 - INFO - Loaded 2 chapters
+2026-04-10 18:56:31,751 - INFO - No progress file found, starting fresh

@@ -16,6 +16,7 @@ from dataclasses import asdict
 # Add parent directory to path for imports
 sys.path.insert(0, os.path.dirname(__file__))
 
+# Import from main.py first
 try:
     from main import (
         PythonExplorer,
@@ -23,14 +24,20 @@ try:
         UserProgress,
         ConfigurationError,
         ExampleExecutionError,
-        QuizGenerator,
         QuizQuestion,
         COLORAMA_AVAILABLE,
     )
 except ImportError as e:
-    print(f"Warning: Could not import modules: {e}")
-    print("Make sure main.py is executable and dependencies are installed")
+    print(f"Warning: Could not import from main: {e}")
     sys.exit(1)
+
+# Import QuizGenerator from generate_quizzes.py module
+try:
+    from generate_quizzes import QuizGenerator
+except ImportError as e:
+    print(f"Warning: Could not import QuizGenerator: {e}")
+    # QuizGenerator is optional for basic tests
+    QuizGenerator = None
 
 
 class TestChapterDataclass(unittest.TestCase):
