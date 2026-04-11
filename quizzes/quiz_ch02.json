@@ -1,77 +1,10 @@
 {
   "chapter_number": "02",
-  "title": "Chapter 02 Quiz",
-  "passing_score": 70,
+  "title": "Chapter 2 Quiz",
   "question_count": 11,
   "questions": [
     {
-      "question": "What Python module appears most frequently in this chapter?",
-      "options": [
-        "Collections",
-        "Other module",
-        "No modules used",
-        "External libraries only"
-      ],
-      "answer": 1,
-      "explanation": "The 'collections' module is mentioned 5 times"
-    },
-    {
-      "question": "What keyword is used to define a function?",
-      "options": [
-        "func",
-        "define",
-        "function",
-        "def"
-      ],
-      "answer": 4,
-      "explanation": "The 'def' keyword defines functions in Python"
-    },
-    {
-      "question": "What is a Python module?",
-      "options": [
-        "A compiled executable",
-        "A file containing Python code",
-        "A database connection",
-        "A network protocol"
-      ],
-      "answer": 2,
-      "explanation": "Modules are files containing Python code that can be imported"
-    },
-    {
-      "question": "Which character starts a comment in Python?",
-      "options": [
-        "//",
-        "/*",
-        "#",
-        "--"
-      ],
-      "answer": 3,
-      "explanation": "The # symbol starts a comment in Python"
-    },
-    {
-      "question": "Which data structure is ordered and mutable?",
-      "options": [
-        "list",
-        "tuple",
-        "set",
-        "dict"
-      ],
-      "answer": 1,
-      "explanation": "Lists are ordered and mutable (can be changed)."
-    },
-    {
-      "question": "Which data structure is ordered but immutable?",
-      "options": [
-        "list",
-        "tuple",
-        "set",
-        "dict"
-      ],
-      "answer": 2,
-      "explanation": "Tuples are ordered and immutable (cannot be changed)."
-    },
-    {
-      "question": "What syntax is used to create a dictionary?",
+      "question": "Syntax for dictionary?",
       "options": [
         "[]",
         "()",
@@ -79,10 +12,71 @@
         "<>"
       ],
       "answer": 3,
-      "explanation": "Curly braces {} are used to create dictionaries."
+      "explanation": "Curly braces create dictionaries.",
+      "difficulty": "easy"
     },
     {
-      "question": "How do you access an element by index in a list?",
+      "question": "What does set() do with duplicates?",
+      "options": [
+        "Keeps duplicates",
+        "Removes duplicates",
+        "Error",
+        "Counts them"
+      ],
+      "answer": 2,
+      "explanation": "Sets remove duplicates.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which is ordered and mutable?",
+      "options": [
+        "list",
+        "tuple",
+        "set",
+        "dict"
+      ],
+      "answer": 1,
+      "explanation": "Lists are ordered and mutable.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Difference between list and tuple?",
+      "options": [
+        "Lists immutable",
+        "Tuples immutable",
+        "Lists only ints",
+        "Tuples unordered"
+      ],
+      "answer": 2,
+      "explanation": "Tuples are immutable.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Check if item in list?",
+      "options": [
+        "in",
+        "contains",
+        "has",
+        "is"
+      ],
+      "answer": 1,
+      "explanation": "in operator checks membership.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Get number of elements?",
+      "options": [
+        "list.size()",
+        "list.length",
+        "len(list)",
+        "size(list)"
+      ],
+      "answer": 3,
+      "explanation": "len() returns element count.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Access element by index?",
       "options": [
         "list.key",
         "list[index]",
@@ -90,10 +84,35 @@
         "list(0)"
       ],
       "answer": 2,
-      "explanation": "Square brackets with index: list[index] accesses elements."
+      "explanation": "Use list[index] for index access.",
+      "difficulty": "easy"
     },
     {
-      "question": "Which method adds an element to the end of a list?",
+      "question": "Which stores key-value pairs?",
+      "options": [
+        "list",
+        "tuple",
+        "set",
+        "dict"
+      ],
+      "answer": 4,
+      "explanation": "Dictionaries store key-value pairs.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "List comprehension syntax?",
+      "options": [
+        "for x in list: x",
+        "[x for x in list]",
+        "list(x for x)",
+        "(x for x in list)"
+      ],
+      "answer": 2,
+      "explanation": "List comprehensions use square brackets.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Add element to end of list?",
       "options": [
         "push()",
         "add()",
@@ -101,29 +120,20 @@
         "insert()"
       ],
       "answer": 3,
-      "explanation": "append() adds an element to the end of a list."
+      "explanation": "append() adds to end.",
+      "difficulty": "easy"
     },
     {
-      "question": "What does set() do with duplicate values?",
+      "question": "Which is ordered but immutable?",
       "options": [
-        "Keeps all duplicates",
-        "Removes duplicates",
-        "Errors out",
-        "Counts them"
+        "list",
+        "tuple",
+        "set",
+        "dict"
       ],
       "answer": 2,
-      "explanation": "Sets automatically remove duplicate values."
-    },
-    {
-      "question": "Which syntax creates a list comprehension?",
-      "options": [
-        "for x in list: x",
-        "[x for x in list]",
-        "list(x for x in list)",
-        "(x for x in list)"
-      ],
-      "answer": 2,
-      "explanation": "List comprehensions use square brackets: [expression for item in iterable]."
+      "explanation": "Tuples are ordered and immutable.",
+      "difficulty": "easy"
     }
   ]
 }

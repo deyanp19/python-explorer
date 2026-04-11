@@ -1,41 +1,19 @@
 {
   "chapter_number": "07",
-  "title": "Chapter 07 Quiz",
-  "passing_score": 70,
+  "title": "Chapter 7 Quiz",
   "question_count": 11,
   "questions": [
     {
-      "question": "What keyword is used to define a function?",
+      "question": "What is a context manager?",
       "options": [
-        "func",
-        "define",
-        "function",
-        "def"
+        "Manages resources with with statement",
+        "File handler",
+        "Exception handler",
+        "Variable manager"
       ],
-      "answer": 4,
-      "explanation": "The 'def' keyword defines functions in Python"
-    },
-    {
-      "question": "What is a Python module?",
-      "options": [
-        "A compiled executable",
-        "A file containing Python code",
-        "A database connection",
-        "A network protocol"
-      ],
-      "answer": 2,
-      "explanation": "Modules are files containing Python code that can be imported"
-    },
-    {
-      "question": "Which character starts a comment in Python?",
-      "options": [
-        "//",
-        "/*",
-        "#",
-        "--"
-      ],
-      "answer": 3,
-      "explanation": "The # symbol starts a comment in Python"
+      "answer": 1,
+      "explanation": "Context manager manages resources with with.",
+      "difficulty": "easy"
     },
     {
       "question": "Which keyword ensures proper resource cleanup?",
@@ -46,18 +24,8 @@
         "resource"
       ],
       "answer": 3,
-      "explanation": "The with keyword ensures proper resource cleanup using context managers."
-    },
-    {
-      "question": "Which function opens files?",
-      "options": [
-        "file()",
-        "open()",
-        "read()",
-        "fopen()"
-      ],
-      "answer": 2,
-      "explanation": "The open() function is used to open files in Python."
+      "explanation": "with keyword ensures proper cleanup.",
+      "difficulty": "easy"
     },
     {
       "question": "What mode opens a file for writing?",
@@ -68,40 +36,8 @@
         "x"
       ],
       "answer": 2,
-      "explanation": "The w mode opens a file for writing (overwrites existing content)."
-    },
-    {
-      "question": "What mode opens a file for reading?",
-      "options": [
-        "r",
-        "w",
-        "a",
-        "x"
-      ],
-      "answer": 1,
-      "explanation": "The r mode opens a file for reading (default mode)."
-    },
-    {
-      "question": "How do you read the entire file content?",
-      "options": [
-        "file.read()",
-        "file.readline()",
-        "file.readlines()",
-        "file.content()"
-      ],
-      "answer": 1,
-      "explanation": "The read() method reads the entire file content as a string."
-    },
-    {
-      "question": "How do you read one line from a file?",
-      "options": [
-        "file.read()",
-        "file.readline()",
-        "file.readlines()",
-        "file.line()"
-      ],
-      "answer": 2,
-      "explanation": "The readline() method reads one line from the file."
+      "explanation": "w mode opens for writing.",
+      "difficulty": "easy"
     },
     {
       "question": "How do you read all lines into a list?",
@@ -112,7 +48,56 @@
         "file.lines()"
       ],
       "answer": 3,
-      "explanation": "The readlines() method reads all lines into a list."
+      "explanation": "readlines() reads all lines into list.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What mode opens a file for reading?",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answer": 1,
+      "explanation": "r mode opens for reading.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How do you read the entire file content?",
+      "options": [
+        "file.read()",
+        "file.readline()",
+        "file.readlines()",
+        "file.content()"
+      ],
+      "answer": 1,
+      "explanation": "read() reads entire file as string.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which module provides contextmanager decorator?",
+      "options": [
+        "contextlib",
+        "context",
+        "manager",
+        "withlib"
+      ],
+      "answer": 1,
+      "explanation": "contextlib provides contextmanager.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How do you read one line from a file?",
+      "options": [
+        "file.read()",
+        "file.readline()",
+        "file.readlines()",
+        "file.line()"
+      ],
+      "answer": 2,
+      "explanation": "readline() reads one line.",
+      "difficulty": "easy"
     },
     {
       "question": "Which method writes to a file?",
@@ -123,7 +108,32 @@
         "file.send()"
       ],
       "answer": 1,
-      "explanation": "The write() method writes a string to the file."
+      "explanation": "write() writes to file.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What happens when opening a non-existent file in w mode?",
+      "options": [
+        "Error",
+        "Creates file",
+        "Returns None",
+        "Opens read-only"
+      ],
+      "answer": 2,
+      "explanation": "w mode creates file if not exists.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which function opens files?",
+      "options": [
+        "file()",
+        "open()",
+        "read()",
+        "fopen()"
+      ],
+      "answer": 2,
+      "explanation": "open() opens files.",
+      "difficulty": "easy"
     }
   ]
 }

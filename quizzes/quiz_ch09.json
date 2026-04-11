@@ -1,74 +1,31 @@
 {
   "chapter_number": "09",
-  "title": "Chapter 09 Quiz",
-  "passing_score": 70,
+  "title": "Chapter 9 Quiz",
   "question_count": 11,
   "questions": [
     {
-      "question": "What module or function is imported/used in the code example?",
+      "question": "What is threading used for?",
       "options": [
-        "threading",
-        "Random threading_alternate",
-        "Related threading_module",
-        "Python standard library"
+        "I/O-bound tasks",
+        "CPU-bound tasks",
+        "Data processing",
+        "Matrix math"
       ],
       "answer": 1,
-      "explanation": "The example uses threading"
+      "explanation": "Threading is for I/O-bound tasks.",
+      "difficulty": "easy"
     },
     {
-      "question": "What module or function is imported/used in the code example?",
+      "question": "What is the advantage of async/await?",
       "options": [
-        "multiprocessing Process",
-        "Random multiprocessing Process_alternate",
-        "Related multiprocessing Process_module",
-        "Python standard library"
+        "Single-threaded concurrency",
+        "Multi-core use",
+        "Memory reduction",
+        "Speed increase"
       ],
       "answer": 1,
-      "explanation": "The example uses multiprocessing Process"
-    },
-    {
-      "question": "What module or function is imported/used in the code example?",
-      "options": [
-        "fetch_data():",
-        "Random fetch_data():_alternate",
-        "Related fetch_data():_module",
-        "Python standard library"
-      ],
-      "answer": 1,
-      "explanation": "The example uses fetch_data():"
-    },
-    {
-      "question": "What keyword is used to define a function?",
-      "options": [
-        "func",
-        "define",
-        "function",
-        "def"
-      ],
-      "answer": 4,
-      "explanation": "The 'def' keyword defines functions in Python"
-    },
-    {
-      "question": "What is a Python module?",
-      "options": [
-        "A compiled executable",
-        "A file containing Python code",
-        "A database connection",
-        "A network protocol"
-      ],
-      "answer": 2,
-      "explanation": "Modules are files containing Python code that can be imported"
-    },
-    {
-      "question": "Which character starts a comment in Python?",
-      "options": [
-        "//",
-        "/*",
-        "#",
-        "--"
-      ],
-      "answer": 3,
-      "explanation": "The # symbol starts a comment in Python"
+      "explanation": "Async/await enables single-threaded concurrency.",
+      "difficulty": "easy"
     },
     {
       "question": "Which module provides threading support?",
@@ -79,7 +36,8 @@
         "asyncio"
       ],
       "answer": 1,
-      "explanation": "The threading module provides thread-based parallelism."
+      "explanation": "threading module provides threads.",
+      "difficulty": "easy"
     },
     {
       "question": "Which method starts a thread?",
@@ -90,29 +48,20 @@
         "thread.begin()"
       ],
       "answer": 1,
-      "explanation": "The start() method begins thread execution."
-    },
-    {
-      "question": "Which module provides multiprocessing support?",
-      "options": [
-        "multiprocessing",
-        "processes",
-        "parallel",
-        "multiprocess"
-      ],
-      "answer": 1,
-      "explanation": "The multiprocessing module allows CPU-bound parallel execution."
+      "explanation": "start() begins thread execution.",
+      "difficulty": "easy"
     },
     {
       "question": "What is GIL?",
       "options": [
-        "Global Internal Lock",
         "Global Interpreter Lock",
+        "Global Internal Lock",
         "General Instruction List",
         "Global Interface Layer"
       ],
-      "answer": 2,
-      "explanation": "The Global Interpreter Lock limits CPU-bound threads to one core."
+      "answer": 1,
+      "explanation": "GIL is mutex for thread safety.",
+      "difficulty": "easy"
     },
     {
       "question": "Which keyword defines an async function?",
@@ -123,7 +72,68 @@
         "coroutine"
       ],
       "answer": 2,
-      "explanation": "The async def syntax defines an asynchronous function."
+      "explanation": "async def defines async function.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which module provides asyncio support?",
+      "options": [
+        "async",
+        "asyncio",
+        "async_support",
+        "coroutine"
+      ],
+      "answer": 2,
+      "explanation": "asyncio module provides async/await.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is multiprocessing used for?",
+      "options": [
+        "CPU-bound tasks",
+        "I/O-bound tasks",
+        "Network requests",
+        "File operations"
+      ],
+      "answer": 1,
+      "explanation": "Multiprocessing for CPU-bound tasks.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does asyncio.run() do?",
+      "options": [
+        "Run asyncio program",
+        "Run coroutine",
+        "Run task",
+        "Start event loop"
+      ],
+      "answer": 1,
+      "explanation": "asyncio.run runs asyncio main function.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword pauses in async functions?",
+      "options": [
+        "pause",
+        "wait",
+        "await",
+        "suspend"
+      ],
+      "answer": 3,
+      "explanation": "await pauses until coroutine completes.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which module provides multiprocessing support?",
+      "options": [
+        "multiprocessing",
+        "processes",
+        "parallel",
+        "multiprocess"
+      ],
+      "answer": 1,
+      "explanation": "multiprocessing module for CPU parallel.",
+      "difficulty": "easy"
     }
   ]
 }

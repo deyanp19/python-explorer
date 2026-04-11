@@ -1,85 +1,91 @@
 {
   "chapter_number": "04",
-  "title": "Chapter 04 Quiz",
-  "passing_score": 70,
+  "title": "Chapter 4 Quiz",
   "question_count": 11,
   "questions": [
     {
-      "question": "What module or function is imported/used in the code example?",
+      "question": "How do you return a value from a function?",
       "options": [
-        "greet(name):",
-        "Random greet(name):_alternate",
-        "Related greet(name):_module",
-        "Python standard library"
+        "print()",
+        "return",
+        "export",
+        "yield"
+      ],
+      "answer": 2,
+      "explanation": "return sends value back from function.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What happens if a function has no return statement?",
+      "options": [
+        "Error",
+        "Returns None",
+        "Returns 0",
+        "Returns False"
+      ],
+      "answer": 2,
+      "explanation": "Functions without return return None.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Where are local variables defined?",
+      "options": [
+        "Inside functions",
+        "Outside functions",
+        "In classes",
+        "In modules"
       ],
       "answer": 1,
-      "explanation": "The example uses greet(name):"
+      "explanation": "Local variables are inside functions.",
+      "difficulty": "easy"
     },
     {
-      "question": "What keyword is used to define a function?",
+      "question": "What does LEGB rule refer to?",
       "options": [
-        "func",
-        "define",
-        "function",
-        "def"
-      ],
-      "answer": 4,
-      "explanation": "The 'def' keyword defines functions in Python"
-    },
-    {
-      "question": "What is a Python module?",
-      "options": [
-        "A compiled executable",
-        "A file containing Python code",
-        "A database connection",
-        "A network protocol"
+        "Loop structures",
+        "Variable scope",
+        "Function arguments",
+        "Module imports"
       ],
       "answer": 2,
-      "explanation": "Modules are files containing Python code that can be imported"
+      "explanation": "LEGB is variable scope: Local, Enclosing, Global, Built-in.",
+      "difficulty": "easy"
     },
     {
-      "question": "Which character starts a comment in Python?",
+      "question": "What is the purpose of a function?",
       "options": [
-        "//",
-        "/*",
-        "#",
-        "--"
-      ],
-      "answer": 3,
-      "explanation": "The # symbol starts a comment in Python"
-    },
-    {
-      "question": "Which keyword defines a function?",
-      "options": [
-        "func",
-        "define",
-        "def",
-        "function"
-      ],
-      "answer": 3,
-      "explanation": "The def keyword is used to define functions."
-    },
-    {
-      "question": "What are *args used for?",
-      "options": [
-        "Keyword arguments",
-        "Variable positional arguments",
-        "Default arguments",
-        "Named arguments"
+        "To repeat code",
+        "To organize reusable code",
+        "To define variables",
+        "To import modules"
       ],
       "answer": 2,
-      "explanation": "*args collects variable positional arguments into a tuple."
+      "explanation": "Functions organize reusable code blocks.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which function applies function to all items?",
+      "options": [
+        "map()",
+        "apply()",
+        "do()",
+        "run()"
+      ],
+      "answer": 1,
+      "explanation": "map() applies function to each item.",
+      "difficulty": "easy"
     },
     {
       "question": "What are **kwargs used for?",
       "options": [
-        "Positional arguments",
-        "Variable keyword arguments",
-        "Required arguments",
-        "Default arguments"
+        "Positional args",
+        "Variable keyword args",
+        "Required args",
+        "Default args"
       ],
       "answer": 2,
-      "explanation": "**kwargs collects variable keyword arguments into a dictionary."
+      "explanation": "**kwargs collects variable keyword args.",
+      "difficulty": "easy"
     },
     {
       "question": "What keyword creates anonymous functions?",
@@ -90,21 +96,11 @@
         "func"
       ],
       "answer": 1,
-      "explanation": "The lambda keyword creates anonymous (unnamed) functions."
+      "explanation": "lambda creates anonymous functions.",
+      "difficulty": "easy"
     },
     {
-      "question": "Which function applies a function to all items?",
-      "options": [
-        "map()",
-        "apply()",
-        "do()",
-        "run()"
-      ],
-      "answer": 1,
-      "explanation": "map() applies a function to each item in an iterable."
-    },
-    {
-      "question": "Which function filters items based on a condition?",
+      "question": "Which function filters items based on condition?",
       "options": [
         "filter()",
         "select()",
@@ -112,18 +108,32 @@
         "extract()"
       ],
       "answer": 1,
-      "explanation": "filter() constructs an iterator from items where the function returns true."
+      "explanation": "filter() filters items based on condition.",
+      "difficulty": "easy"
     },
     {
-      "question": "What does the LEGB rule refer to?",
+      "question": "What are *args used for?",
       "options": [
-        "Loop structures",
-        "Variable scope",
-        "Function arguments",
-        "Module imports"
+        "Keyword args",
+        "Variable positional args",
+        "Default args",
+        "Named args"
       ],
       "answer": 2,
-      "explanation": "LEGB rules the order of variable scope: Local, Enclosing, Global, Built-in."
+      "explanation": "*args collects variable positional args.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword defines a function?",
+      "options": [
+        "func",
+        "define",
+        "def",
+        "function"
+      ],
+      "answer": 3,
+      "explanation": "def keyword defines functions.",
+      "difficulty": "easy"
     }
   ]
 }

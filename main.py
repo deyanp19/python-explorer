@@ -551,30 +551,26 @@ class PythonExplorer:
             print("Rating must be between 1 and 5")
 
     def display_quiz(self, chapter: Chapter) -> bool:
-        """Display quiz for a chapter with enhanced features."""
+        """Display quiz for a chapter with enhanced randomized questions."""
         quiz_config = self.config.get('quizzes', {})
         if not quiz_config.get('enabled', False):
             print("\nQuizzes are not enabled. Enable in config.yaml to use.")
             return True
 
-        # Get questions or generate fallback
+        # Get questions from chapter (loaded from JSON)
         questions = getattr(chapter, 'quiz_questions', [])
-        if not questions:
-            # Read chapter README content to generate better questions
-            readme_content = ""
-            readme_path = chapter.readme_path
-            if readme_path and os.path.exists(readme_path):
-                try:
-                    with open(readme_path, 'r', encoding='utf-8') as f:
-                        readme_content = f.read()
-                except Exception:
-                    readme_content = ""
-            
-            questions = self._generate_fallback_quiz_questions(chapter, readme_content)
         
         if not questions:
             print(f"\nNo quiz questions available for {chapter.name}")
             return True
+
+        # Randomly select questions if pool is larger than needed
+        num_questions = quiz_config.get('questions_per_quiz', 11)
+        if len(questions) > num_questions:
+            import random
+            questions = random.sample(questions, num_questions)
+            # Update chapter's quiz_questions to reflect selection
+            chapter.quiz_questions = questions
 
         # Handle retry logic
         retry_config = quiz_config.get('retry_after_fail', True)

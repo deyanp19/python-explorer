@@ -1,96 +1,19 @@
 {
   "chapter_number": "05",
-  "title": "Chapter 05 Quiz",
-  "passing_score": 70,
+  "title": "Chapter 5 Quiz",
   "question_count": 11,
   "questions": [
     {
-      "question": "What module or function is imported/used in the code example?",
+      "question": "What is the base class for all Python classes?",
       "options": [
-        "Dog: __init__(self,",
-        "Random Dog: __init__(self,_alternate",
-        "Related Dog: __init__(self,_module",
-        "Python standard library"
-      ],
-      "answer": 1,
-      "explanation": "The example uses Dog: __init__(self,"
-    },
-    {
-      "question": "What module or function is imported/used in the code example?",
-      "options": [
-        "GoldenRetriever(Dog): bark(self):",
-        "Random GoldenRetriever(Dog): bark(self):_alternate",
-        "Related GoldenRetriever(Dog): bark(self):_module",
-        "Python standard library"
-      ],
-      "answer": 1,
-      "explanation": "The example uses GoldenRetriever(Dog): bark(self):"
-    },
-    {
-      "question": "What keyword is used to define a function?",
-      "options": [
-        "func",
-        "define",
-        "function",
-        "def"
-      ],
-      "answer": 4,
-      "explanation": "The 'def' keyword defines functions in Python"
-    },
-    {
-      "question": "What is a Python module?",
-      "options": [
-        "A compiled executable",
-        "A file containing Python code",
-        "A database connection",
-        "A network protocol"
-      ],
-      "answer": 2,
-      "explanation": "Modules are files containing Python code that can be imported"
-    },
-    {
-      "question": "Which character starts a comment in Python?",
-      "options": [
-        "//",
-        "/*",
-        "#",
-        "--"
+        "Base",
+        "Root",
+        "object",
+        "Parent"
       ],
       "answer": 3,
-      "explanation": "The # symbol starts a comment in Python"
-    },
-    {
-      "question": "What keyword defines a class?",
-      "options": [
-        "class",
-        "define",
-        "object",
-        "struct"
-      ],
-      "answer": 1,
-      "explanation": "The class keyword is used to define classes."
-    },
-    {
-      "question": "What is the constructor method in Python classes?",
-      "options": [
-        "__init__",
-        "__construct__",
-        "__start__",
-        "__build__"
-      ],
-      "answer": 1,
-      "explanation": "__init__ is the constructor method called when creating objects."
-    },
-    {
-      "question": "What are methods ending with __ called?",
-      "options": [
-        "Private methods",
-        "Dunder methods",
-        "Static methods",
-        "Class methods"
-      ],
-      "answer": 2,
-      "explanation": "Methods with double underscores are called dunder or magic methods."
+      "explanation": "object is base class.",
+      "difficulty": "easy"
     },
     {
       "question": "What does inheritance allow?",
@@ -101,7 +24,80 @@
         "Variable types"
       ],
       "answer": 2,
-      "explanation": "Inheritance allows creating new classes that reuse and extend existing classes."
+      "explanation": "Inheritance allows reuse and extension.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is polymorphism?",
+      "options": [
+        "Many constructors",
+        "Same method different classes",
+        "Hidden data",
+        "Class nesting"
+      ],
+      "answer": 2,
+      "explanation": "Polymorphism: different classes same method.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How do you create an instance of a class?",
+      "options": [
+        "class()",
+        "new Class()",
+        "Class()",
+        "make Class()"
+      ],
+      "answer": 3,
+      "explanation": "Call class like function: Class_Name().",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How do you access an object attribute?",
+      "options": [
+        "object(attribute)",
+        "object.attribute",
+        "object[attribute]",
+        "object->attribute"
+      ],
+      "answer": 2,
+      "explanation": "Use dot notation: object.attribute.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What are methods ending with __ called?",
+      "options": [
+        "Private methods",
+        "Dunder methods",
+        "Static methods",
+        "Class methods"
+      ],
+      "answer": 2,
+      "explanation": "Methods with __ are dunder/magic methods.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What keyword defines a class?",
+      "options": [
+        "class",
+        "define",
+        "object",
+        "struct"
+      ],
+      "answer": 1,
+      "explanation": "class keyword defines classes.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does __str__ do?",
+      "options": [
+        "Compare objects",
+        "Return string representation",
+        "Initialize",
+        "Destroy"
+      ],
+      "answer": 2,
+      "explanation": "__str__ returns human-readable string.",
+      "difficulty": "easy"
     },
     {
       "question": "What is the first parameter of instance methods?",
@@ -112,18 +108,32 @@
         "object"
       ],
       "answer": 1,
-      "explanation": "self refers to the instance and is the first parameter of instance methods."
+      "explanation": "self refers to the instance.",
+      "difficulty": "easy"
     },
     {
-      "question": "What is polymorphism?",
+      "question": "What is encapsulation?",
       "options": [
-        "Many constructors",
-        "Same method, different classes",
-        "Hidden data",
-        "Class nesting"
+        "Multiple classes",
+        "Hide implementation details",
+        "Class inheritance",
+        "Method overloading"
       ],
       "answer": 2,
-      "explanation": "Polymorphism allows different classes to respond differently to the same method call."
+      "explanation": "Encapsulation hides internal details.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the constructor method in Python classes?",
+      "options": [
+        "__init__",
+        "__construct__",
+        "__start__",
+        "__build__"
+      ],
+      "answer": 1,
+      "explanation": "__init__ is the constructor.",
+      "difficulty": "easy"
     }
   ]
 }

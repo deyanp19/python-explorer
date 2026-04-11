@@ -440,3 +440,46 @@
 2026-04-10 23:09:27,035 - INFO - Saved progress to user_progress.json
 2026-04-10 23:09:27,058 - INFO - Saved progress to user_progress.json
 2026-04-10 23:09:27,058 - INFO - Session lasted 2.7 minutes
+2026-04-11 14:45:54,137 - INFO - Configuration loaded from config.yaml
+2026-04-11 14:45:54,139 - INFO - Loaded 11 questions from quizzes/quiz_ch10.json
+2026-04-11 14:45:54,140 - INFO - Loaded 11 questions from quizzes/quiz_ch01.json
+2026-04-11 14:45:54,141 - INFO - Loaded 11 questions from quizzes/quiz_ch02.json
+2026-04-11 14:45:54,141 - INFO - Loaded 11 questions from quizzes/quiz_ch03.json
+2026-04-11 14:45:54,142 - INFO - Loaded 11 questions from quizzes/quiz_ch04.json
+2026-04-11 14:45:54,142 - INFO - Loaded 11 questions from quizzes/quiz_ch05.json
+2026-04-11 14:45:54,143 - INFO - Loaded 11 questions from quizzes/quiz_ch06.json
+2026-04-11 14:45:54,144 - INFO - Loaded 11 questions from quizzes/quiz_ch07.json
+2026-04-11 14:45:54,144 - INFO - Loaded 11 questions from quizzes/quiz_ch08.json
+2026-04-11 14:45:54,145 - INFO - Loaded 11 questions from quizzes/quiz_ch09.json
+2026-04-11 14:45:54,145 - INFO - Loaded 10 chapters
+2026-04-11 14:45:54,145 - INFO - Loaded progress for user: default
+2026-04-11 14:47:46,485 - INFO - Configuration loaded from config.yaml
+2026-04-11 14:47:46,486 - INFO - Loaded 11 questions from quizzes/quiz_ch10.json
+2026-04-11 14:47:46,487 - INFO - Loaded 11 questions from quizzes/quiz_ch01.json
+2026-04-11 14:47:46,487 - INFO - Loaded 11 questions from quizzes/quiz_ch02.json
+2026-04-11 14:47:46,488 - INFO - Loaded 11 questions from quizzes/quiz_ch03.json
+2026-04-11 14:47:46,488 - INFO - Loaded 11 questions from quizzes/quiz_ch04.json
+2026-04-11 14:47:46,488 - INFO - Loaded 11 questions from quizzes/quiz_ch05.json
+2026-04-11 14:47:46,489 - INFO - Loaded 11 questions from quizzes/quiz_ch06.json
+2026-04-11 14:47:46,489 - INFO - Loaded 11 questions from quizzes/quiz_ch07.json
+2026-04-11 14:47:46,490 - INFO - Loaded 11 questions from quizzes/quiz_ch08.json
+2026-04-11 14:47:46,490 - INFO - Loaded 11 questions from quizzes/quiz_ch09.json
+2026-04-11 14:47:46,490 - INFO - Loaded 10 chapters
+2026-04-11 14:47:46,491 - INFO - Loaded progress for user: default
+2026-04-11 14:49:53,120 - INFO - Configuration loaded from config.yaml
+2026-04-11 14:49:53,121 - INFO - Loaded 11 questions from quizzes/quiz_ch10.json
+2026-04-11 14:49:53,121 - INFO - Loaded 11 questions from quizzes/quiz_ch01.json
+2026-04-11 14:49:53,122 - INFO - Loaded 11 questions from quizzes/quiz_ch02.json
+2026-04-11 14:49:53,122 - INFO - Loaded 11 questions from quizzes/quiz_ch03.json
+2026-04-11 14:49:53,122 - INFO - Loaded 11 questions from quizzes/quiz_ch04.json
+2026-04-11 14:49:53,123 - INFO - Loaded 11 questions from quizzes/quiz_ch05.json
+2026-04-11 14:49:53,123 - INFO - Loaded 11 questions from quizzes/quiz_ch06.json
+2026-04-11 14:49:53,123 - INFO - Loaded 11 questions from quizzes/quiz_ch07.json
+2026-04-11 14:49:53,124 - INFO - Loaded 11 questions from quizzes/quiz_ch08.json
+2026-04-11 14:49:53,124 - INFO - Loaded 11 questions from quizzes/quiz_ch09.json
+2026-04-11 14:49:53,124 - INFO - Loaded 10 chapters
+2026-04-11 14:49:53,124 - INFO - Loaded progress for user: default
+2026-04-11 15:00:51,650 - INFO - Saved progress to user_progress.json
+2026-04-11 15:01:04,489 - INFO - Saved progress to user_progress.json
+2026-04-11 15:01:04,490 - INFO - Saved progress to user_progress.json
+2026-04-11 15:01:04,490 - INFO - Session lasted 11.2 minutes

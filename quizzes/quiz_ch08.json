@@ -1,85 +1,67 @@
 {
   "chapter_number": "08",
-  "title": "Chapter 08 Quiz",
-  "passing_score": 70,
+  "title": "Chapter 8 Quiz",
   "question_count": 11,
   "questions": [
     {
-      "question": "What module or function is imported/used in the code example?",
+      "question": "Which operator is used for unpacking in function calls?",
       "options": [
-        "count_up_to(n):",
-        "Random count_up_to(n):_alternate",
-        "Related count_up_to(n):_module",
-        "Python standard library"
+        "*",
+        "**",
+        "spread",
+        "expand"
+      ],
+      "answer": 2,
+      "explanation": "** unpacks keyword arguments.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does * do for unpacking?",
+      "options": [
+        "Unpack positional args",
+        "Unpack keyword args",
+        "Multiply",
+        "Splat"
       ],
       "answer": 1,
-      "explanation": "The example uses count_up_to(n):"
+      "explanation": "* unpacks positional arguments.",
+      "difficulty": "easy"
     },
     {
-      "question": "What module or function is imported/used in the code example?",
+      "question": "What is the syntax for type hinting a function?",
       "options": [
-        "my_decorator(func): wrapper():",
-        "Random my_decorator(func): wrapper():_alternate",
-        "Related my_decorator(func): wrapper():_module",
-        "Python standard library"
+        "def func(x: int) -> int:",
+        "def func(x int) int:",
+        "def func(x: int):",
+        "def func(int x): int"
       ],
       "answer": 1,
-      "explanation": "The example uses my_decorator(func): wrapper():"
+      "explanation": "Use def func(param: type) -> return_type.",
+      "difficulty": "easy"
     },
     {
-      "question": "What keyword is used to define a function?",
+      "question": "How many times can a generator yield values?",
       "options": [
-        "func",
-        "define",
-        "function",
-        "def"
+        "Multiple times",
+        "Once",
+        "Twice",
+        "Never"
       ],
-      "answer": 4,
-      "explanation": "The 'def' keyword defines functions in Python"
+      "answer": 1,
+      "explanation": "Generators can yield multiple values.",
+      "difficulty": "easy"
     },
     {
-      "question": "What is a Python module?",
+      "question": "What is a generator function?",
       "options": [
-        "A compiled executable",
-        "A file containing Python code",
-        "A database connection",
-        "A network protocol"
+        "Function using yield",
+        "Function returning list",
+        "Function creating objects",
+        "Function generating random"
       ],
-      "answer": 2,
-      "explanation": "Modules are files containing Python code that can be imported"
-    },
-    {
-      "question": "Which character starts a comment in Python?",
-      "options": [
-        "//",
-        "/*",
-        "#",
-        "--"
-      ],
-      "answer": 3,
-      "explanation": "The # symbol starts a comment in Python"
-    },
-    {
-      "question": "Which keyword creates a generator?",
-      "options": [
-        "generate",
-        "yield",
-        "return",
-        "yield from"
-      ],
-      "answer": 2,
-      "explanation": "The yield keyword produces a value and pauses the function."
-    },
-    {
-      "question": "What is the main benefit of generators?",
-      "options": [
-        "Faster execution",
-        "Memory efficiency",
-        "Parallel processing",
-        "Type safety"
-      ],
-      "answer": 2,
-      "explanation": "Generators are memory efficient as they generate values on-demand."
+      "answer": 1,
+      "explanation": "Generator function uses yield.",
+      "difficulty": "easy"
     },
     {
       "question": "Which decorator modifies a function?",
@@ -90,40 +72,68 @@
         "@wrap"
       ],
       "answer": 2,
-      "explanation": "Decorators use @decorator_name syntax above the function."
+      "explanation": "Use @decorator_name syntax.",
+      "difficulty": "easy"
     },
     {
       "question": "What is a decorator?",
       "options": [
-        "A class method",
-        "A function that modifies another function",
-        "A variable marker",
-        "A type hint"
+        "Function modifying function",
+        "Class method",
+        "Variable marker",
+        "Type hint"
+      ],
+      "answer": 1,
+      "explanation": "Decorator modifies function behavior.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the main benefit of generators?",
+      "options": [
+        "Memory efficiency",
+        "Speed",
+        "Parallel processing",
+        "Type safety"
+      ],
+      "answer": 1,
+      "explanation": "Generators are memory efficient.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword creates a generator?",
+      "options": [
+        "generate",
+        "yield",
+        "return",
+        "yield from"
       ],
       "answer": 2,
-      "explanation": "A decorator is a function that takes another function and extends its behavior."
+      "explanation": "yield keyword yields values.",
+      "difficulty": "easy"
     },
     {
       "question": "What is the purpose of type hints?",
       "options": [
-        "Runtime type checking",
-        "Code documentation and IDE support",
+        "Code documentation and IDE",
+        "Runtime checking",
         "Faster execution",
         "Memory management"
       ],
-      "answer": 2,
-      "explanation": "Type hints improve code documentation and enable better IDE autocomplete."
+      "answer": 1,
+      "explanation": "Type hints improve documentation and IDE support.",
+      "difficulty": "easy"
     },
     {
-      "question": "Which operator is used for unpacking in function calls?",
+      "question": "Which keyword creates a lambda function?",
       "options": [
-        "*",
-        "**",
-        "spread",
-        "expand"
+        "lambda",
+        "anonymous",
+        "fn",
+        "func"
       ],
-      "answer": 2,
-      "explanation": "** is used for unpacking keyword arguments (dictionaries)."
+      "answer": 1,
+      "explanation": "lambda creates anonymous functions.",
+      "difficulty": "easy"
     }
   ]
 }

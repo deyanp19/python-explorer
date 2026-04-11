@@ -1,96 +1,19 @@
 {
   "chapter_number": "06",
-  "title": "Chapter 06 Quiz",
-  "passing_score": 70,
+  "title": "Chapter 6 Quiz",
   "question_count": 11,
   "questions": [
     {
-      "question": "What keyword is used to define a function?",
+      "question": "Can you have else with try-except?",
       "options": [
-        "func",
-        "define",
-        "function",
-        "def"
-      ],
-      "answer": 4,
-      "explanation": "The 'def' keyword defines functions in Python"
-    },
-    {
-      "question": "What is a Python module?",
-      "options": [
-        "A compiled executable",
-        "A file containing Python code",
-        "A database connection",
-        "A network protocol"
+        "No",
+        "Yes, if no exception",
+        "Only with finally",
+        "Yes, always"
       ],
       "answer": 2,
-      "explanation": "Modules are files containing Python code that can be imported"
-    },
-    {
-      "question": "Which character starts a comment in Python?",
-      "options": [
-        "//",
-        "/*",
-        "#",
-        "--"
-      ],
-      "answer": 3,
-      "explanation": "The # symbol starts a comment in Python"
-    },
-    {
-      "question": "Which block handles exceptions?",
-      "options": [
-        "except",
-        "error",
-        "catch",
-        "handle"
-      ],
-      "answer": 1,
-      "explanation": "The except block handles exceptions."
-    },
-    {
-      "question": "Which block always executes?",
-      "options": [
-        "finally",
-        "always",
-        "end",
-        "done"
-      ],
-      "answer": 1,
-      "explanation": "The finally block always executes, regardless of exceptions."
-    },
-    {
-      "question": "What happens when dividing by zero?",
-      "options": [
-        "Returns 0",
-        "Returns None",
-        "Raises ZeroDivisionError",
-        "Returns infinity"
-      ],
-      "answer": 3,
-      "explanation": "Division by zero raises a ZeroDivisionError."
-    },
-    {
-      "question": "How do you catch multiple exception types?",
-      "options": [
-        "Multiple except blocks",
-        "except (Exception1, Exception2)",
-        "catch {Exception1, Exception2}",
-        "one except for all"
-      ],
-      "answer": 2,
-      "explanation": "Use except (Exception1, Exception2) to catch multiple types."
-    },
-    {
-      "question": "What keyword raises an exception?",
-      "options": [
-        "throw",
-        "raise",
-        "error",
-        "trigger"
-      ],
-      "answer": 2,
-      "explanation": "The raise keyword is used to manually raise exceptions."
+      "explanation": "else executes when no exception.",
+      "difficulty": "easy"
     },
     {
       "question": "What is the base exception class?",
@@ -101,18 +24,8 @@
         "StandardError"
       ],
       "answer": 2,
-      "explanation": "Exception is the base class for all built-in exceptions."
-    },
-    {
-      "question": "Which block contains risky code?",
-      "options": [
-        "try",
-        "risky",
-        "danger",
-        "risky"
-      ],
-      "answer": 1,
-      "explanation": "The try block contains code that might raise exceptions."
+      "explanation": "Exception is base class.",
+      "difficulty": "easy"
     },
     {
       "question": "How do you create a custom exception?",
@@ -123,7 +36,104 @@
         "def Exception(CustomError)"
       ],
       "answer": 1,
-      "explanation": "Custom exceptions inherit from Exception: class CustomError(Exception)."
+      "explanation": "class CustomError(Exception) creates custom exception.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What exception occurs with invalid type conversion?",
+      "options": [
+        "TypeError",
+        "ValueError",
+        "SyntaxError",
+        "NameError"
+      ],
+      "answer": 2,
+      "explanation": "ValueError for correct type, invalid value.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What happens when dividing by zero?",
+      "options": [
+        "Returns 0",
+        "Returns None",
+        "Raises ZeroDivisionError",
+        "Returns infinity"
+      ],
+      "answer": 3,
+      "explanation": "Division by zero raises ZeroDivisionError.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What keyword raises an exception?",
+      "options": [
+        "throw",
+        "raise",
+        "error",
+        "trigger"
+      ],
+      "answer": 2,
+      "explanation": "raise keyword raises exceptions.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How do you catch multiple exception types?",
+      "options": [
+        "Multiple except",
+        "except (Exception1, Exception2)",
+        "catch {Exception1, Exception2}",
+        "one except for all"
+      ],
+      "answer": 2,
+      "explanation": "Use except (Exception1, Exception2).",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which block contains risky code?",
+      "options": [
+        "try",
+        "risky",
+        "danger",
+        "risky"
+      ],
+      "answer": 1,
+      "explanation": "try block contains risky code.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which block always executes?",
+      "options": [
+        "finally",
+        "always",
+        "end",
+        "done"
+      ],
+      "answer": 1,
+      "explanation": "finally always executes.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What exception occurs with undefined variables?",
+      "options": [
+        "UndefinedError",
+        "NameError",
+        "VariableError",
+        "ReferenceError"
+      ],
+      "answer": 2,
+      "explanation": "NameError for undefined variables.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which block handles exceptions?",
+      "options": [
+        "except",
+        "error",
+        "catch",
+        "handle"
+      ],
+      "answer": 1,
+      "explanation": "except block handles exceptions.",
+      "difficulty": "easy"
     }
   ]
 }

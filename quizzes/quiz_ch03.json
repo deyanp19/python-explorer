@@ -1,55 +1,22 @@
 {
   "chapter_number": "03",
-  "title": "Chapter 03 Quiz",
-  "passing_score": 70,
+  "title": "Chapter 3 Quiz",
   "question_count": 11,
   "questions": [
     {
-      "question": "What keyword is used to define a function?",
+      "question": "Can you use else with for loops?",
       "options": [
-        "func",
-        "define",
-        "function",
-        "def"
-      ],
-      "answer": 4,
-      "explanation": "The 'def' keyword defines functions in Python"
-    },
-    {
-      "question": "What is a Python module?",
-      "options": [
-        "A compiled executable",
-        "A file containing Python code",
-        "A database connection",
-        "A network protocol"
+        "No",
+        "Yes, when loop finishes",
+        "Yes, when loop breaks",
+        "Only with while"
       ],
       "answer": 2,
-      "explanation": "Modules are files containing Python code that can be imported"
+      "explanation": "else executes when loop finishes normally.",
+      "difficulty": "easy"
     },
     {
-      "question": "Which character starts a comment in Python?",
-      "options": [
-        "//",
-        "/*",
-        "#",
-        "--"
-      ],
-      "answer": 3,
-      "explanation": "The # symbol starts a comment in Python"
-    },
-    {
-      "question": "Which keyword starts a conditional statement?",
-      "options": [
-        "when",
-        "else",
-        "if",
-        "case"
-      ],
-      "answer": 3,
-      "explanation": "The if keyword begins conditional statements."
-    },
-    {
-      "question": "What keyword exits a loop immediately?",
+      "question": "What keyword exits loop immediately?",
       "options": [
         "break",
         "continue",
@@ -57,40 +24,8 @@
         "stop"
       ],
       "answer": 1,
-      "explanation": "The break statement exits a loop immediately."
-    },
-    {
-      "question": "What keyword skips to the next iteration?",
-      "options": [
-        "break",
-        "continue",
-        "skip",
-        "next"
-      ],
-      "answer": 2,
-      "explanation": "The continue statement skips to the next loop iteration."
-    },
-    {
-      "question": "Which keyword is used for iteration loops?",
-      "options": [
-        "while",
-        "for",
-        "repeat",
-        "loop"
-      ],
-      "answer": 2,
-      "explanation": "The for keyword is used for iterating over sequences."
-    },
-    {
-      "question": "What keyword starts a loop based on a condition?",
-      "options": [
-        "while",
-        "for",
-        "if",
-        "until"
-      ],
-      "answer": 1,
-      "explanation": "The while loop repeats while a condition is true."
+      "explanation": "break exits loop immediately.",
+      "difficulty": "easy"
     },
     {
       "question": "Which keyword handles alternative conditions?",
@@ -101,7 +36,80 @@
         "switch"
       ],
       "answer": 1,
-      "explanation": "The else keyword handles alternative conditions."
+      "explanation": "else handles alternative conditions.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is indentation requirement?",
+      "options": [
+        "Optional",
+        "4 spaces minimum",
+        "Consistent required",
+        "Any spaces"
+      ],
+      "answer": 3,
+      "explanation": "Python requires consistent indentation.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which statement is placeholder that does nothing?",
+      "options": [
+        "null",
+        "pass",
+        "skip",
+        "ignore"
+      ],
+      "answer": 2,
+      "explanation": "pass is placeholder that does nothing.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "How to write multi-way conditional?",
+      "options": [
+        "if-else",
+        "if-elif-else",
+        "switch-case",
+        "multiple-if"
+      ],
+      "answer": 2,
+      "explanation": "Use if-elif-else chains.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What keyword skips to next iteration?",
+      "options": [
+        "break",
+        "continue",
+        "skip",
+        "next"
+      ],
+      "answer": 2,
+      "explanation": "continue skips to next iteration.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword is used for iteration loops?",
+      "options": [
+        "while",
+        "for",
+        "repeat",
+        "loop"
+      ],
+      "answer": 2,
+      "explanation": "for keyword iterates over sequences.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What keyword starts loop based on condition?",
+      "options": [
+        "while",
+        "for",
+        "if",
+        "until"
+      ],
+      "answer": 1,
+      "explanation": "while loop repeats while condition is true.",
+      "difficulty": "easy"
     },
     {
       "question": "What keyword handles additional conditions?",
@@ -112,18 +120,20 @@
         "if else"
       ],
       "answer": 1,
-      "explanation": "The elif keyword checks additional conditions."
+      "explanation": "elif checks additional conditions.",
+      "difficulty": "easy"
     },
     {
-      "question": "Which statement is a placeholder that does nothing?",
+      "question": "Which keyword starts conditional statement?",
       "options": [
-        "null",
-        "pass",
-        "skip",
-        "ignore"
+        "when",
+        "else",
+        "if",
+        "case"
       ],
-      "answer": 2,
-      "explanation": "The pass statement is a placeholder that does nothing."
+      "answer": 3,
+      "explanation": "if keyword begins conditionals.",
+      "difficulty": "easy"
     }
   ]
 }

@@ -1,107 +1,31 @@
 {
   "chapter_number": "10",
   "title": "Chapter 10 Quiz",
-  "passing_score": 70,
   "question_count": 11,
   "questions": [
     {
-      "question": "What Python module appears most frequently in this chapter?",
+      "question": "Which module provides random number generation?",
       "options": [
-        "Os",
-        "Other module",
-        "No modules used",
-        "External libraries only"
+        "random",
+        "rand",
+        "randomize",
+        "chance"
       ],
       "answer": 1,
-      "explanation": "The 'os' module is mentioned 1 times"
+      "explanation": "random module provides random numbers.",
+      "difficulty": "easy"
     },
     {
-      "question": "What keyword is used to define a function?",
+      "question": "What does os.path.join() do?",
       "options": [
-        "func",
-        "define",
-        "function",
-        "def"
-      ],
-      "answer": 4,
-      "explanation": "The 'def' keyword defines functions in Python"
-    },
-    {
-      "question": "What is a Python module?",
-      "options": [
-        "A compiled executable",
-        "A file containing Python code",
-        "A database connection",
-        "A network protocol"
-      ],
-      "answer": 2,
-      "explanation": "Modules are files containing Python code that can be imported"
-    },
-    {
-      "question": "Which character starts a comment in Python?",
-      "options": [
-        "//",
-        "/*",
-        "#",
-        "--"
-      ],
-      "answer": 3,
-      "explanation": "The # symbol starts a comment in Python"
-    },
-    {
-      "question": "Which class counts element occurrences?",
-      "options": [
-        "Counter",
-        "Count",
-        "ElementCount",
-        "Frequency"
+        "Joins file paths",
+        "Joins strings",
+        "Joins lists",
+        "Joins directories"
       ],
       "answer": 1,
-      "explanation": "Counter from collections counts hashable objects."
-    },
-    {
-      "question": "Which class creates tuples with named fields?",
-      "options": [
-        "NamedTuple",
-        "Named",
-        "FieldTuple",
-        "Record"
-      ],
-      "answer": 1,
-      "explanation": "namedtuple from collections creates tuples with named fields."
-    },
-    {
-      "question": "Which function chains multiple iterables?",
-      "options": [
-        "chain()",
-        "combine()",
-        "merge()",
-        "join()"
-      ],
-      "answer": 1,
-      "explanation": "itertools.chain() concatenates multiple iterables."
-    },
-    {
-      "question": "Which function groups consecutive elements?",
-      "options": [
-        "groupby()",
-        "group()",
-        "batch()",
-        "section()"
-      ],
-      "answer": 1,
-      "explanation": "itertools.groupby() groups consecutive elements with the same key."
-    },
-    {
-      "question": "Which module handles date and time?",
-      "options": [
-        "time",
-        "datetime",
-        "calendar",
-        "date"
-      ],
-      "answer": 2,
-      "explanation": "The datetime module handles dates and times."
+      "explanation": "os.path.join() intelligently joins paths.",
+      "difficulty": "easy"
     },
     {
       "question": "Which module provides system parameters?",
@@ -112,10 +36,47 @@
         "env"
       ],
       "answer": 1,
-      "explanation": "The sys module provides access to system-specific parameters."
+      "explanation": "sys module provides system parameters.",
+      "difficulty": "easy"
     },
     {
-      "question": "Which module provides operating system interfaces?",
+      "question": "Which function reads environment variables?",
+      "options": [
+        "os.getenv()",
+        "os.environ[KEY]",
+        "os.get_var()",
+        "os.get_env()"
+      ],
+      "answer": 2,
+      "explanation": "os.getenv() or os.environ[KEY] reads env vars.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which class counts element occurrences?",
+      "options": [
+        "Counter",
+        "Count",
+        "ElementCount",
+        "Frequency"
+      ],
+      "answer": 1,
+      "explanation": "Counter counts hashable objects.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which class creates tuples with named fields?",
+      "options": [
+        "NamedTuple",
+        "Named",
+        "FieldTuple",
+        "Record"
+      ],
+      "answer": 1,
+      "explanation": "namedtuple creates tuples with named fields.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which module provides OS interfaces?",
       "options": [
         "os",
         "system",
@@ -123,7 +84,56 @@
         "platform"
       ],
       "answer": 1,
-      "explanation": "The os module provides operating system interfaces."
+      "explanation": "os module provides OS interfaces.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does itertools.accumulate() do?",
+      "options": [
+        "Accumulates values cumulatively",
+        "Accumulates lists",
+        "Accumulates dicts",
+        "Accumulates counters"
+      ],
+      "answer": 1,
+      "explanation": "accumulate() returns accumulated sums or other binary functions.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which function chains multiple iterables?",
+      "options": [
+        "chain()",
+        "combine()",
+        "merge()",
+        "join()"
+      ],
+      "answer": 1,
+      "explanation": "itertools.chain() concatenates iterables.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which function groups consecutive elements?",
+      "options": [
+        "groupby()",
+        "group()",
+        "batch()",
+        "section()"
+      ],
+      "answer": 1,
+      "explanation": "itertools.groupby() groups consecutive elements.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which module handles date and time?",
+      "options": [
+        "time",
+        "datetime",
+        "calendar",
+        "date"
+      ],
+      "answer": 2,
+      "explanation": "datetime module handles dates and times.",
+      "difficulty": "easy"
     }
   ]
 }

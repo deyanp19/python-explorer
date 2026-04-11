@@ -1,44 +1,10 @@
 {
   "chapter_number": "01",
-  "title": "Chapter 01 Quiz",
-  "passing_score": 70,
+  "title": "Chapter 1 Quiz",
   "question_count": 11,
   "questions": [
     {
-      "question": "What keyword is used to define a function?",
-      "options": [
-        "func",
-        "define",
-        "function",
-        "def"
-      ],
-      "answer": 4,
-      "explanation": "The 'def' keyword defines functions in Python"
-    },
-    {
-      "question": "What is a Python module?",
-      "options": [
-        "A compiled executable",
-        "A file containing Python code",
-        "A database connection",
-        "A network protocol"
-      ],
-      "answer": 2,
-      "explanation": "Modules are files containing Python code that can be imported"
-    },
-    {
-      "question": "Which character starts a comment in Python?",
-      "options": [
-        "//",
-        "/*",
-        "#",
-        "--"
-      ],
-      "answer": 3,
-      "explanation": "The # symbol starts a comment in Python"
-    },
-    {
-      "question": "What is the correct function to output text in Python?",
+      "question": "What is the correct function to output text?",
       "options": [
         "output()",
         "print()",
@@ -46,40 +12,8 @@
         "echo()"
       ],
       "answer": 2,
-      "explanation": "The print() function outputs text to the console in Python."
-    },
-    {
-      "question": "What symbol is used for single-line comments?",
-      "options": [
-        "//",
-        "#",
-        "/*",
-        "--"
-      ],
-      "answer": 2,
-      "explanation": "The # symbol starts single-line comments in Python."
-    },
-    {
-      "question": "What is the correct file extension for Python files?",
-      "options": [
-        ".py",
-        ".python",
-        ".pt",
-        ".pc"
-      ],
-      "answer": 1,
-      "explanation": "Python files use the .py extension."
-    },
-    {
-      "question": "Which keyword imports modules in Python?",
-      "options": [
-        "include",
-        "import",
-        "using",
-        "require"
-      ],
-      "answer": 2,
-      "explanation": "The import keyword is used to import modules."
+      "explanation": "print() outputs text to console.",
+      "difficulty": "easy"
     },
     {
       "question": "What data type represents decimal numbers?",
@@ -90,7 +24,8 @@
         "bool"
       ],
       "answer": 2,
-      "explanation": "The float data type represents decimal numbers."
+      "explanation": "float represents decimal numbers.",
+      "difficulty": "easy"
     },
     {
       "question": "Which keyword defines a function?",
@@ -101,18 +36,8 @@
         "function"
       ],
       "answer": 3,
-      "explanation": "The def keyword defines functions in Python."
-    },
-    {
-      "question": "What does Python use to define code blocks?",
-      "options": [
-        "Braces",
-        "Indentation",
-        "Semicolons",
-        "Keywords"
-      ],
-      "answer": 2,
-      "explanation": "Python uses indentation to define code blocks."
+      "explanation": "def keyword defines functions.",
+      "difficulty": "easy"
     },
     {
       "question": "What is Python primarily known for?",
@@ -123,7 +48,92 @@
         "Hardware control"
       ],
       "answer": 2,
-      "explanation": "Python is known for its simple and readable syntax."
+      "explanation": "Python is known for readability.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the result of 10 / 3 in Python 3?",
+      "options": [
+        "3",
+        "3.33",
+        "3.0",
+        "3.333..."
+      ],
+      "answer": 4,
+      "explanation": "Python 3 division returns a float.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What does Python use to define code blocks?",
+      "options": [
+        "Braces",
+        "Indentation",
+        "Semicolons",
+        "Keywords"
+      ],
+      "answer": 2,
+      "explanation": "Python uses indentation for blocks.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What symbol is used for single-line comments?",
+      "options": [
+        "//",
+        "#",
+        "/*",
+        "--"
+      ],
+      "answer": 2,
+      "explanation": "# starts single-line comments.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which built-in function returns the type of an object?",
+      "options": [
+        "kind()",
+        "type()",
+        "category()",
+        "class()"
+      ],
+      "answer": 2,
+      "explanation": "type() returns the data type.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which keyword imports modules?",
+      "options": [
+        "include",
+        "import",
+        "using",
+        "require"
+      ],
+      "answer": 2,
+      "explanation": "import keyword imports modules.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "What is the correct file extension for Python files?",
+      "options": [
+        ".py",
+        ".python",
+        ".pt",
+        ".pc"
+      ],
+      "answer": 1,
+      "explanation": "Python files use .py extension.",
+      "difficulty": "easy"
+    },
+    {
+      "question": "Which statement creates a variable?",
+      "options": [
+        "var x=5",
+        "int x=5",
+        "x=5",
+        "declare x=5"
+      ],
+      "answer": 3,
+      "explanation": "Python uses simple assignment: x = 5.",
+      "difficulty": "easy"
     }
   ]
 }
