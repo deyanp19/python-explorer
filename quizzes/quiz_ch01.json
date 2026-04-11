@@ -1,0 +1,129 @@
+{
+  "chapter_number": "01",
+  "title": "Chapter 01 Quiz",
+  "passing_score": 70,
+  "question_count": 11,
+  "questions": [
+    {
+      "question": "What keyword is used to define a function?",
+      "options": [
+        "func",
+        "define",
+        "function",
+        "def"
+      ],
+      "answer": 4,
+      "explanation": "The 'def' keyword defines functions in Python"
+    },
+    {
+      "question": "What is a Python module?",
+      "options": [
+        "A compiled executable",
+        "A file containing Python code",
+        "A database connection",
+        "A network protocol"
+      ],
+      "answer": 2,
+      "explanation": "Modules are files containing Python code that can be imported"
+    },
+    {
+      "question": "Which character starts a comment in Python?",
+      "options": [
+        "//",
+        "/*",
+        "#",
+        "--"
+      ],
+      "answer": 3,
+      "explanation": "The # symbol starts a comment in Python"
+    },
+    {
+      "question": "What is the correct function to output text in Python?",
+      "options": [
+        "output()",
+        "print()",
+        "write()",
+        "echo()"
+      ],
+      "answer": 2,
+      "explanation": "The print() function outputs text to the console in Python."
+    },
+    {
+      "question": "What symbol is used for single-line comments?",
+      "options": [
+        "//",
+        "#",
+        "/*",
+        "--"
+      ],
+      "answer": 2,
+      "explanation": "The # symbol starts single-line comments in Python."
+    },
+    {
+      "question": "What is the correct file extension for Python files?",
+      "options": [
+        ".py",
+        ".python",
+        ".pt",
+        ".pc"
+      ],
+      "answer": 1,
+      "explanation": "Python files use the .py extension."
+    },
+    {
+      "question": "Which keyword imports modules in Python?",
+      "options": [
+        "include",
+        "import",
+        "using",
+        "require"
+      ],
+      "answer": 2,
+      "explanation": "The import keyword is used to import modules."
+    },
+    {
+      "question": "What data type represents decimal numbers?",
+      "options": [
+        "int",
+        "float",
+        "str",
+        "bool"
+      ],
+      "answer": 2,
+      "explanation": "The float data type represents decimal numbers."
+    },
+    {
+      "question": "Which keyword defines a function?",
+      "options": [
+        "func",
+        "define",
+        "def",
+        "function"
+      ],
+      "answer": 3,
+      "explanation": "The def keyword defines functions in Python."
+    },
+    {
+      "question": "What does Python use to define code blocks?",
+      "options": [
+        "Braces",
+        "Indentation",
+        "Semicolons",
+        "Keywords"
+      ],
+      "answer": 2,
+      "explanation": "Python uses indentation to define code blocks."
+    },
+    {
+      "question": "What is Python primarily known for?",
+      "options": [
+        "Complex syntax",
+        "Readability",
+        "Speed",
+        "Hardware control"
+      ],
+      "answer": 2,
+      "explanation": "Python is known for its simple and readable syntax."
+    }
+  ]
+}

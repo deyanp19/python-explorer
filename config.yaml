@@ -1,173 +1,58 @@
-# Python Features Explorer - Configuration Example
-# This file is used to customize the behavior of the application.
-# Copy this to config.yaml and modify as needed.
-
-# ============================================================
-# APPLICATION SETTINGS
-# ============================================================
-
 app:
-  # Application display name
-  name: "Python Features Explorer"
-  
-  # Current version number
-  version: "2.0.0"
-  
-  # Enable debug mode (more verbose output)
   debug: false
-
-# ============================================================
-# EXECUTION SETTINGS
-# ============================================================
-
-execution:
-  # Maximum time in seconds before a script is killed
-  # Increase for longer-running examples
-  timeout_seconds: 30
-  
-  # Maximum examples to show per session (0 = unlimited)
-  max_examples_per_session: 0
-  
-  # Python interpreter command
-  shell: "python3"  # Use "python" for Python 2 compatibility
-
-# ============================================================
-# DISPLAY SETTINGS
-# ============================================================
-
+  name: Python Features Explorer
+  version: 2.0.0
 display:
-  # Show chapter descriptions above examples
-  show_descriptions: true
-  
-  # Show progress bars for completion
-  show_progress_bars: true
-  
-  # Content display width (0 = terminal width)
   content_width: 80
-  
-  # Use wide separators (for better visual structure)
+  show_descriptions: true
+  show_progress_bars: true
   wide_separators: true
-
-# ============================================================
-# SEARCH SETTINGS
-# ============================================================
-
-search:
-  # Enable fuzzy matching (more flexible search)
-  fuzzy_match: true
-  
-  # Minimum characters required for search
-  min_characters: 2
-  
-  # Search scope: "title", "description", or "all"
-  search_scope: "all"
-
-# ============================================================
-# PROGRESS TRACKING SETTINGS
-# ============================================================
-
-progress:
-  # Enable progress tracking (saves state between sessions)
-  enabled: true
-  
-  # Filename to store progress
-  storage_file: "user_progress.json"
-  
-  # Automatically save after each chapter
-  auto_save: true
-
-# ============================================================
-# THEME/COLOR SETTINGS
-# ============================================================
-
-theme:
-  # Theme mode: "auto" (system default), "dark", or "light"
-  mode: "auto"
-  
-  # Color choices (use colorama names: cyan, magenta, green, etc.)
-  colors:
-    header: "cyan"
-    chapter_title: "green"
-    example: "blue"
-    output: "white"
-    error: "red"
-    success: "green"
-    warning: "yellow"
-    highlight: "magenta"
-
-# ============================================================
-# QUIZZ SETTINGS
-# ============================================================
-
-quizzes:
-  # Enable quiz functionality
-  enabled: false  # Set to true to enable
-  # You'll need to run: python generate_quizzes.py
-  
-  # Number of questions per chapter
-  questions_per_chapter: 5
-  
-  # Minimum passing score (as percentage)
-  passing_score: 70
-  
-  # Allow retry attempts
-  allow_retries: true
-  
-  # Maximum retry attempts
-  max_attempts: 3
-
-# ============================================================
-# FA VORITES SETTINGS
-# ============================================================
-
+execution:
+  max_examples_per_session: 0
+  shell: python3
+  timeout_seconds: 30
 favorites:
-  # Enable favorites system
   enabled: true
-  
-  # Maximum number of favorites per user
   max_favorites: 10
-
-# ============================================================
-# SECURITY SETTINGS
-# ============================================================
-
-security:
-  # Enable sandbox mode (restrict code execution capabilities)
-  sandbox_mode: false  # Set to true for production use
-  
-  # Directories allowed to be accessed during execution
-  allowed_directories:
-    - "examples"
-  
-  # Functions that should be blocked during execution
-  blocked_functions:
-    - "os.system"
-    - "os.popen"
-    - "eval"
-    - "exec"
-    - "subprocess.call"
-    - "subprocess.run"
-
-# ============================================================
-# LOGGING SETTINGS
-# ============================================================
-
 logging:
-  # Log level: "DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"
-  level: "INFO"
-  
-  # Log file location
-  file: "python_explorer.log"
-  
-  # Maximum log file size in MB before rotation
+  file: python_explorer.log
+  level: INFO
   max_size_mb: 10
-
-# ============================================================
-# END OF CONFIGURATION
-# ============================================================
-
-# Tips for customizing:
-# 1. Copy this file to 'config.yaml' in the application root
-# 2. Modify values you want to change (keep structure intact)
-# 3. Leave values you want to keep as default
-# 4. Add new sections as needed
+progress:
+  auto_save: true
+  enabled: true
+  storage_file: user_progress.json
+quizzes:
+  enabled: true
+  max_quiz_retries: -1
+  passing_score: 70
+  questions_per_quiz: 11
+  retry_after_fail: true
+  show_explanations: true
+  show_explanations: true
+search:
+  fuzzy_match: true
+  min_characters: 2
+  search_scope: all
+security:
+  allowed_directories:
+  - examples
+  blocked_functions:
+  - os.system
+  - os.popen
+  - eval
+  - exec
+  - subprocess.call
+  - subprocess.run
+  sandbox_mode: false
+theme:
+  colors:
+    chapter_title: green
+    error: red
+    example: blue
+    header: cyan
+    highlight: magenta
+    output: white
+    success: green
+    warning: yellow
+  mode: auto

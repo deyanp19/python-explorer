@@ -1,0 +1,129 @@
+{
+  "chapter_number": "07",
+  "title": "Chapter 07 Quiz",
+  "passing_score": 70,
+  "question_count": 11,
+  "questions": [
+    {
+      "question": "What keyword is used to define a function?",
+      "options": [
+        "func",
+        "define",
+        "function",
+        "def"
+      ],
+      "answer": 4,
+      "explanation": "The 'def' keyword defines functions in Python"
+    },
+    {
+      "question": "What is a Python module?",
+      "options": [
+        "A compiled executable",
+        "A file containing Python code",
+        "A database connection",
+        "A network protocol"
+      ],
+      "answer": 2,
+      "explanation": "Modules are files containing Python code that can be imported"
+    },
+    {
+      "question": "Which character starts a comment in Python?",
+      "options": [
+        "//",
+        "/*",
+        "#",
+        "--"
+      ],
+      "answer": 3,
+      "explanation": "The # symbol starts a comment in Python"
+    },
+    {
+      "question": "Which keyword ensures proper resource cleanup?",
+      "options": [
+        "try",
+        "finally",
+        "with",
+        "resource"
+      ],
+      "answer": 3,
+      "explanation": "The with keyword ensures proper resource cleanup using context managers."
+    },
+    {
+      "question": "Which function opens files?",
+      "options": [
+        "file()",
+        "open()",
+        "read()",
+        "fopen()"
+      ],
+      "answer": 2,
+      "explanation": "The open() function is used to open files in Python."
+    },
+    {
+      "question": "What mode opens a file for writing?",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answer": 2,
+      "explanation": "The w mode opens a file for writing (overwrites existing content)."
+    },
+    {
+      "question": "What mode opens a file for reading?",
+      "options": [
+        "r",
+        "w",
+        "a",
+        "x"
+      ],
+      "answer": 1,
+      "explanation": "The r mode opens a file for reading (default mode)."
+    },
+    {
+      "question": "How do you read the entire file content?",
+      "options": [
+        "file.read()",
+        "file.readline()",
+        "file.readlines()",
+        "file.content()"
+      ],
+      "answer": 1,
+      "explanation": "The read() method reads the entire file content as a string."
+    },
+    {
+      "question": "How do you read one line from a file?",
+      "options": [
+        "file.read()",
+        "file.readline()",
+        "file.readlines()",
+        "file.line()"
+      ],
+      "answer": 2,
+      "explanation": "The readline() method reads one line from the file."
+    },
+    {
+      "question": "How do you read all lines into a list?",
+      "options": [
+        "file.read()",
+        "file.readline()",
+        "file.readlines()",
+        "file.lines()"
+      ],
+      "answer": 3,
+      "explanation": "The readlines() method reads all lines into a list."
+    },
+    {
+      "question": "Which method writes to a file?",
+      "options": [
+        "file.write()",
+        "file.print()",
+        "file.output()",
+        "file.send()"
+      ],
+      "answer": 1,
+      "explanation": "The write() method writes a string to the file."
+    }
+  ]
+}

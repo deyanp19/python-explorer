@@ -1,0 +1,129 @@
+{
+  "chapter_number": "10",
+  "title": "Chapter 10 Quiz",
+  "passing_score": 70,
+  "question_count": 11,
+  "questions": [
+    {
+      "question": "What Python module appears most frequently in this chapter?",
+      "options": [
+        "Os",
+        "Other module",
+        "No modules used",
+        "External libraries only"
+      ],
+      "answer": 1,
+      "explanation": "The 'os' module is mentioned 1 times"
+    },
+    {
+      "question": "What keyword is used to define a function?",
+      "options": [
+        "func",
+        "define",
+        "function",
+        "def"
+      ],
+      "answer": 4,
+      "explanation": "The 'def' keyword defines functions in Python"
+    },
+    {
+      "question": "What is a Python module?",
+      "options": [
+        "A compiled executable",
+        "A file containing Python code",
+        "A database connection",
+        "A network protocol"
+      ],
+      "answer": 2,
+      "explanation": "Modules are files containing Python code that can be imported"
+    },
+    {
+      "question": "Which character starts a comment in Python?",
+      "options": [
+        "//",
+        "/*",
+        "#",
+        "--"
+      ],
+      "answer": 3,
+      "explanation": "The # symbol starts a comment in Python"
+    },
+    {
+      "question": "Which class counts element occurrences?",
+      "options": [
+        "Counter",
+        "Count",
+        "ElementCount",
+        "Frequency"
+      ],
+      "answer": 1,
+      "explanation": "Counter from collections counts hashable objects."
+    },
+    {
+      "question": "Which class creates tuples with named fields?",
+      "options": [
+        "NamedTuple",
+        "Named",
+        "FieldTuple",
+        "Record"
+      ],
+      "answer": 1,
+      "explanation": "namedtuple from collections creates tuples with named fields."
+    },
+    {
+      "question": "Which function chains multiple iterables?",
+      "options": [
+        "chain()",
+        "combine()",
+        "merge()",
+        "join()"
+      ],
+      "answer": 1,
+      "explanation": "itertools.chain() concatenates multiple iterables."
+    },
+    {
+      "question": "Which function groups consecutive elements?",
+      "options": [
+        "groupby()",
+        "group()",
+        "batch()",
+        "section()"
+      ],
+      "answer": 1,
+      "explanation": "itertools.groupby() groups consecutive elements with the same key."
+    },
+    {
+      "question": "Which module handles date and time?",
+      "options": [
+        "time",
+        "datetime",
+        "calendar",
+        "date"
+      ],
+      "answer": 2,
+      "explanation": "The datetime module handles dates and times."
+    },
+    {
+      "question": "Which module provides system parameters?",
+      "options": [
+        "sys",
+        "system",
+        "params",
+        "env"
+      ],
+      "answer": 1,
+      "explanation": "The sys module provides access to system-specific parameters."
+    },
+    {
+      "question": "Which module provides operating system interfaces?",
+      "options": [
+        "os",
+        "system",
+        "filesystem",
+        "platform"
+      ],
+      "answer": 1,
+      "explanation": "The os module provides operating system interfaces."
+    }
+  ]
+}

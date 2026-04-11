@@ -1,0 +1,129 @@
+{
+  "chapter_number": "03",
+  "title": "Chapter 03 Quiz",
+  "passing_score": 70,
+  "question_count": 11,
+  "questions": [
+    {
+      "question": "What keyword is used to define a function?",
+      "options": [
+        "func",
+        "define",
+        "function",
+        "def"
+      ],
+      "answer": 4,
+      "explanation": "The 'def' keyword defines functions in Python"
+    },
+    {
+      "question": "What is a Python module?",
+      "options": [
+        "A compiled executable",
+        "A file containing Python code",
+        "A database connection",
+        "A network protocol"
+      ],
+      "answer": 2,
+      "explanation": "Modules are files containing Python code that can be imported"
+    },
+    {
+      "question": "Which character starts a comment in Python?",
+      "options": [
+        "//",
+        "/*",
+        "#",
+        "--"
+      ],
+      "answer": 3,
+      "explanation": "The # symbol starts a comment in Python"
+    },
+    {
+      "question": "Which keyword starts a conditional statement?",
+      "options": [
+        "when",
+        "else",
+        "if",
+        "case"
+      ],
+      "answer": 3,
+      "explanation": "The if keyword begins conditional statements."
+    },
+    {
+      "question": "What keyword exits a loop immediately?",
+      "options": [
+        "break",
+        "continue",
+        "exit",
+        "stop"
+      ],
+      "answer": 1,
+      "explanation": "The break statement exits a loop immediately."
+    },
+    {
+      "question": "What keyword skips to the next iteration?",
+      "options": [
+        "break",
+        "continue",
+        "skip",
+        "next"
+      ],
+      "answer": 2,
+      "explanation": "The continue statement skips to the next loop iteration."
+    },
+    {
+      "question": "Which keyword is used for iteration loops?",
+      "options": [
+        "while",
+        "for",
+        "repeat",
+        "loop"
+      ],
+      "answer": 2,
+      "explanation": "The for keyword is used for iterating over sequences."
+    },
+    {
+      "question": "What keyword starts a loop based on a condition?",
+      "options": [
+        "while",
+        "for",
+        "if",
+        "until"
+      ],
+      "answer": 1,
+      "explanation": "The while loop repeats while a condition is true."
+    },
+    {
+      "question": "Which keyword handles alternative conditions?",
+      "options": [
+        "else",
+        "otherwise",
+        "alt",
+        "switch"
+      ],
+      "answer": 1,
+      "explanation": "The else keyword handles alternative conditions."
+    },
+    {
+      "question": "What keyword handles additional conditions?",
+      "options": [
+        "elif",
+        "else if",
+        "elseif",
+        "if else"
+      ],
+      "answer": 1,
+      "explanation": "The elif keyword checks additional conditions."
+    },
+    {
+      "question": "Which statement is a placeholder that does nothing?",
+      "options": [
+        "null",
+        "pass",
+        "skip",
+        "ignore"
+      ],
+      "answer": 2,
+      "explanation": "The pass statement is a placeholder that does nothing."
+    }
+  ]
+}

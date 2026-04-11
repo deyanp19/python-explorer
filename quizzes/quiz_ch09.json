@@ -1,0 +1,129 @@
+{
+  "chapter_number": "09",
+  "title": "Chapter 09 Quiz",
+  "passing_score": 70,
+  "question_count": 11,
+  "questions": [
+    {
+      "question": "What module or function is imported/used in the code example?",
+      "options": [
+        "threading",
+        "Random threading_alternate",
+        "Related threading_module",
+        "Python standard library"
+      ],
+      "answer": 1,
+      "explanation": "The example uses threading"
+    },
+    {
+      "question": "What module or function is imported/used in the code example?",
+      "options": [
+        "multiprocessing Process",
+        "Random multiprocessing Process_alternate",
+        "Related multiprocessing Process_module",
+        "Python standard library"
+      ],
+      "answer": 1,
+      "explanation": "The example uses multiprocessing Process"
+    },
+    {
+      "question": "What module or function is imported/used in the code example?",
+      "options": [
+        "fetch_data():",
+        "Random fetch_data():_alternate",
+        "Related fetch_data():_module",
+        "Python standard library"
+      ],
+      "answer": 1,
+      "explanation": "The example uses fetch_data():"
+    },
+    {
+      "question": "What keyword is used to define a function?",
+      "options": [
+        "func",
+        "define",
+        "function",
+        "def"
+      ],
+      "answer": 4,
+      "explanation": "The 'def' keyword defines functions in Python"
+    },
+    {
+      "question": "What is a Python module?",
+      "options": [
+        "A compiled executable",
+        "A file containing Python code",
+        "A database connection",
+        "A network protocol"
+      ],
+      "answer": 2,
+      "explanation": "Modules are files containing Python code that can be imported"
+    },
+    {
+      "question": "Which character starts a comment in Python?",
+      "options": [
+        "//",
+        "/*",
+        "#",
+        "--"
+      ],
+      "answer": 3,
+      "explanation": "The # symbol starts a comment in Python"
+    },
+    {
+      "question": "Which module provides threading support?",
+      "options": [
+        "threading",
+        "threads",
+        "concurrent",
+        "asyncio"
+      ],
+      "answer": 1,
+      "explanation": "The threading module provides thread-based parallelism."
+    },
+    {
+      "question": "Which method starts a thread?",
+      "options": [
+        "thread.start()",
+        "thread.run()",
+        "start(thread)",
+        "thread.begin()"
+      ],
+      "answer": 1,
+      "explanation": "The start() method begins thread execution."
+    },
+    {
+      "question": "Which module provides multiprocessing support?",
+      "options": [
+        "multiprocessing",
+        "processes",
+        "parallel",
+        "multiprocess"
+      ],
+      "answer": 1,
+      "explanation": "The multiprocessing module allows CPU-bound parallel execution."
+    },
+    {
+      "question": "What is GIL?",
+      "options": [
+        "Global Internal Lock",
+        "Global Interpreter Lock",
+        "General Instruction List",
+        "Global Interface Layer"
+      ],
+      "answer": 2,
+      "explanation": "The Global Interpreter Lock limits CPU-bound threads to one core."
+    },
+    {
+      "question": "Which keyword defines an async function?",
+      "options": [
+        "async",
+        "async def",
+        "await",
+        "coroutine"
+      ],
+      "answer": 2,
+      "explanation": "The async def syntax defines an asynchronous function."
+    }
+  ]
+}

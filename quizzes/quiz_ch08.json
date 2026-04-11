@@ -1,0 +1,129 @@
+{
+  "chapter_number": "08",
+  "title": "Chapter 08 Quiz",
+  "passing_score": 70,
+  "question_count": 11,
+  "questions": [
+    {
+      "question": "What module or function is imported/used in the code example?",
+      "options": [
+        "count_up_to(n):",
+        "Random count_up_to(n):_alternate",
+        "Related count_up_to(n):_module",
+        "Python standard library"
+      ],
+      "answer": 1,
+      "explanation": "The example uses count_up_to(n):"
+    },
+    {
+      "question": "What module or function is imported/used in the code example?",
+      "options": [
+        "my_decorator(func): wrapper():",
+        "Random my_decorator(func): wrapper():_alternate",
+        "Related my_decorator(func): wrapper():_module",
+        "Python standard library"
+      ],
+      "answer": 1,
+      "explanation": "The example uses my_decorator(func): wrapper():"
+    },
+    {
+      "question": "What keyword is used to define a function?",
+      "options": [
+        "func",
+        "define",
+        "function",
+        "def"
+      ],
+      "answer": 4,
+      "explanation": "The 'def' keyword defines functions in Python"
+    },
+    {
+      "question": "What is a Python module?",
+      "options": [
+        "A compiled executable",
+        "A file containing Python code",
+        "A database connection",
+        "A network protocol"
+      ],
+      "answer": 2,
+      "explanation": "Modules are files containing Python code that can be imported"
+    },
+    {
+      "question": "Which character starts a comment in Python?",
+      "options": [
+        "//",
+        "/*",
+        "#",
+        "--"
+      ],
+      "answer": 3,
+      "explanation": "The # symbol starts a comment in Python"
+    },
+    {
+      "question": "Which keyword creates a generator?",
+      "options": [
+        "generate",
+        "yield",
+        "return",
+        "yield from"
+      ],
+      "answer": 2,
+      "explanation": "The yield keyword produces a value and pauses the function."
+    },
+    {
+      "question": "What is the main benefit of generators?",
+      "options": [
+        "Faster execution",
+        "Memory efficiency",
+        "Parallel processing",
+        "Type safety"
+      ],
+      "answer": 2,
+      "explanation": "Generators are memory efficient as they generate values on-demand."
+    },
+    {
+      "question": "Which decorator modifies a function?",
+      "options": [
+        "decorator",
+        "@decorator_name",
+        "decorate",
+        "@wrap"
+      ],
+      "answer": 2,
+      "explanation": "Decorators use @decorator_name syntax above the function."
+    },
+    {
+      "question": "What is a decorator?",
+      "options": [
+        "A class method",
+        "A function that modifies another function",
+        "A variable marker",
+        "A type hint"
+      ],
+      "answer": 2,
+      "explanation": "A decorator is a function that takes another function and extends its behavior."
+    },
+    {
+      "question": "What is the purpose of type hints?",
+      "options": [
+        "Runtime type checking",
+        "Code documentation and IDE support",
+        "Faster execution",
+        "Memory management"
+      ],
+      "answer": 2,
+      "explanation": "Type hints improve code documentation and enable better IDE autocomplete."
+    },
+    {
+      "question": "Which operator is used for unpacking in function calls?",
+      "options": [
+        "*",
+        "**",
+        "spread",
+        "expand"
+      ],
+      "answer": 2,
+      "explanation": "** is used for unpacking keyword arguments (dictionaries)."
+    }
+  ]
+}

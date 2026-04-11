@@ -119,3 +119,324 @@
 2026-04-10 18:56:31,751 - INFO - Configuration loaded from config.yaml
 2026-04-10 18:56:31,751 - INFO - Loaded 2 chapters
 2026-04-10 18:56:31,751 - INFO - No progress file found, starting fresh
+2026-04-10 19:06:49,528 - INFO - Configuration loaded from config.yaml
+2026-04-10 19:06:49,528 - INFO - Loaded 10 chapters
+2026-04-10 19:06:49,528 - INFO - Loaded progress for user: default
+2026-04-10 19:08:16,800 - INFO - Viewed example dunder_methods in chapter 05
+2026-04-10 19:08:45,946 - INFO - Viewed example lists in chapter 02
+2026-04-10 20:11:23,454 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:11:23,455 - INFO - Loaded 10 chapters
+2026-04-10 20:11:23,455 - INFO - Loaded progress for user: default
+2026-04-10 20:11:30,567 - INFO - Saved progress to user_progress.json
+2026-04-10 20:11:30,568 - INFO - Saved progress to user_progress.json
+2026-04-10 20:11:30,569 - INFO - Session lasted 0.1 minutes
+2026-04-10 20:11:37,894 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:11:37,895 - INFO - Loaded 10 chapters
+2026-04-10 20:11:37,895 - INFO - Loaded progress for user: default
+2026-04-10 20:14:12,793 - INFO - Saved progress to user_progress.json
+2026-04-10 20:14:12,795 - INFO - Saved progress to user_progress.json
+2026-04-10 20:14:12,795 - INFO - Session lasted 2.6 minutes
+2026-04-10 20:14:15,541 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:14:15,542 - INFO - Loaded 10 chapters
+2026-04-10 20:14:15,542 - INFO - Loaded progress for user: default
+2026-04-10 20:17:32,265 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,266 - INFO - Loaded 10 chapters
+2026-04-10 20:17:32,266 - INFO - Loaded progress for user: default
+2026-04-10 20:17:32,267 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,267 - ERROR - Content directory not found: content
+2026-04-10 20:17:32,267 - INFO - No progress file found, starting fresh
+2026-04-10 20:17:32,268 - INFO - Config file config.yaml not found, using defaults
+2026-04-10 20:17:32,268 - ERROR - Content directory not found: content
+2026-04-10 20:17:32,268 - INFO - No progress file found, starting fresh
+2026-04-10 20:17:32,269 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,270 - INFO - Loaded 1 chapters
+2026-04-10 20:17:32,270 - INFO - No progress file found, starting fresh
+2026-04-10 20:17:32,270 - ERROR - Example not found: examples/ch01/nonexistent.py
+2026-04-10 20:17:32,273 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,273 - INFO - Loaded 1 chapters
+2026-04-10 20:17:32,273 - INFO - No progress file found, starting fresh
+2026-04-10 20:17:32,273 - INFO - Viewed example simple in chapter 1
+2026-04-10 20:17:32,275 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,275 - INFO - Loaded 1 chapters
+2026-04-10 20:17:32,275 - INFO - Loaded progress for user: test_user
+2026-04-10 20:17:32,276 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,276 - INFO - Loaded 1 chapters
+2026-04-10 20:17:32,276 - INFO - Loaded progress for user: test_user
+2026-04-10 20:17:32,276 - INFO - Saved progress to test_progress.json
+2026-04-10 20:17:32,277 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,277 - INFO - Loaded 1 chapters
+2026-04-10 20:17:32,277 - INFO - Loaded progress for user: test_user
+2026-04-10 20:17:32,278 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,278 - INFO - Loaded 1 chapters
+2026-04-10 20:17:32,278 - INFO - Loaded progress for user: test_user
+2026-04-10 20:17:32,278 - INFO - Saved progress to test_progress.json
+2026-04-10 20:17:32,279 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,279 - INFO - Loaded 1 chapters
+2026-04-10 20:17:32,279 - INFO - No progress file found, starting fresh
+2026-04-10 20:17:32,286 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,286 - INFO - Loaded 1 chapters
+2026-04-10 20:17:32,286 - INFO - No progress file found, starting fresh
+2026-04-10 20:17:32,287 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,288 - ERROR - Content directory not found: content
+2026-04-10 20:17:32,288 - INFO - No progress file found, starting fresh
+2026-04-10 20:17:32,289 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,289 - INFO - Loaded 2 chapters
+2026-04-10 20:17:32,289 - INFO - No progress file found, starting fresh
+2026-04-10 20:17:32,290 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,290 - INFO - Loaded 2 chapters
+2026-04-10 20:17:32,290 - INFO - No progress file found, starting fresh
+2026-04-10 20:17:32,291 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,291 - INFO - Loaded 2 chapters
+2026-04-10 20:17:32,291 - INFO - No progress file found, starting fresh
+2026-04-10 20:17:32,292 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:17:32,292 - INFO - Loaded 2 chapters
+2026-04-10 20:17:32,292 - INFO - No progress file found, starting fresh
+2026-04-10 20:19:19,231 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:19:19,232 - INFO - Loaded 10 chapters
+2026-04-10 20:19:19,232 - INFO - Loaded progress for user: default
+2026-04-10 20:20:58,860 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:20:58,861 - INFO - Loaded 10 chapters
+2026-04-10 20:20:58,861 - INFO - Loaded progress for user: default
+2026-04-10 20:22:51,435 - WARNING - Failed to load config: [Errno 21] Is a directory: 'content', using defaults
+2026-04-10 20:22:51,436 - INFO - Loaded 10 chapters
+2026-04-10 20:22:51,436 - INFO - Loaded progress for user: default
+2026-04-10 20:26:36,281 - WARNING - Failed to load config: [Errno 21] Is a directory: 'content', using defaults
+2026-04-10 20:26:36,282 - INFO - Loaded 10 chapters
+2026-04-10 20:26:36,283 - INFO - Loaded progress for user: default
+2026-04-10 20:28:32,056 - WARNING - Failed to load config: [Errno 21] Is a directory: 'content', using defaults
+2026-04-10 20:28:32,056 - INFO - Loaded 10 chapters
+2026-04-10 20:28:32,057 - INFO - Loaded progress for user: default
+2026-04-10 20:30:32,978 - WARNING - Failed to load config: [Errno 21] Is a directory: 'content', using defaults
+2026-04-10 20:30:32,979 - INFO - Loaded 10 chapters
+2026-04-10 20:30:32,979 - INFO - Loaded progress for user: default
+2026-04-10 20:46:46,680 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:46:46,681 - INFO - Loaded 10 chapters
+2026-04-10 20:46:46,681 - INFO - Loaded progress for user: default
+2026-04-10 20:49:25,705 - INFO - Configuration loaded from config.yaml
+2026-04-10 20:49:25,707 - INFO - Loaded 10 chapters
+2026-04-10 20:49:25,707 - INFO - Loaded progress for user: default
+2026-04-10 21:12:52,895 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:12:52,896 - INFO - Loaded 10 chapters
+2026-04-10 21:12:52,896 - INFO - Loaded progress for user: default
+2026-04-10 21:12:52,896 - INFO - Viewed example hello_world in chapter 01
+2026-04-10 21:13:01,489 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:13:01,491 - INFO - Loaded 10 chapters
+2026-04-10 21:13:01,491 - INFO - Loaded progress for user: default
+2026-04-10 21:13:21,886 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:13:21,887 - INFO - Loaded 10 chapters
+2026-04-10 21:13:21,887 - INFO - Loaded progress for user: default
+2026-04-10 21:13:21,887 - INFO - Viewed example assignment in chapter 02
+2026-04-10 21:13:21,887 - INFO - Viewed example type_check in chapter 02
+2026-04-10 21:14:12,189 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:14:12,190 - INFO - Loaded 10 chapters
+2026-04-10 21:14:12,190 - INFO - Loaded progress for user: default
+2026-04-10 21:14:12,190 - INFO - Viewed example example1 in chapter 99
+2026-04-10 21:14:12,190 - INFO - Viewed example example2 in chapter 99
+2026-04-10 21:15:49,359 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:15:49,360 - INFO - Loaded 10 chapters
+2026-04-10 21:15:49,360 - INFO - Loaded progress for user: default
+2026-04-10 21:17:16,035 - INFO - Viewed example lambda_map_filter in chapter 04
+2026-04-10 21:21:37,961 - INFO - Completed chapter 04
+2026-04-10 21:21:37,962 - INFO - Saved progress to user_progress.json
+2026-04-10 21:21:58,016 - INFO - Viewed example hello_world in chapter 01
+2026-04-10 21:22:18,691 - INFO - Completed chapter 01
+2026-04-10 21:25:08,454 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:25:08,455 - INFO - Loaded 10 chapters
+2026-04-10 21:25:08,455 - INFO - Loaded progress for user: default
+2026-04-10 21:25:51,868 - INFO - Viewed example comments in chapter 01
+2026-04-10 21:26:10,989 - INFO - Saved progress to user_progress.json
+2026-04-10 21:26:11,012 - INFO - Saved progress to user_progress.json
+2026-04-10 21:26:11,012 - INFO - Session lasted 10.4 minutes
+2026-04-10 21:26:13,049 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:26:13,050 - INFO - Loaded 10 chapters
+2026-04-10 21:26:13,050 - INFO - Loaded progress for user: default
+2026-04-10 21:26:28,427 - INFO - Viewed example lists in chapter 02
+2026-04-10 21:27:23,314 - INFO - Completed chapter 02
+2026-04-10 21:34:30,577 - INFO - Saved progress to user_progress.json
+2026-04-10 21:34:30,578 - INFO - Saved progress to user_progress.json
+2026-04-10 21:34:30,579 - INFO - Session lasted 8.3 minutes
+2026-04-10 21:34:32,478 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:34:32,479 - INFO - Loaded 10 chapters
+2026-04-10 21:34:32,479 - INFO - Loaded progress for user: default
+2026-04-10 21:36:08,574 - INFO - Viewed example for_while in chapter 03
+2026-04-10 21:36:40,150 - INFO - Completed chapter 03
+2026-04-10 21:41:56,966 - INFO - Saved progress to user_progress.json
+2026-04-10 21:41:56,990 - INFO - Saved progress to user_progress.json
+2026-04-10 21:41:56,991 - INFO - Session lasted 7.4 minutes
+2026-04-10 21:42:00,049 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:42:00,049 - INFO - Loaded 10 chapters
+2026-04-10 21:42:00,050 - INFO - Loaded progress for user: default
+2026-04-10 21:42:11,149 - INFO - Viewed example if_else in chapter 03
+2026-04-10 21:47:14,356 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:47:14,358 - INFO - Loaded 10 chapters
+2026-04-10 21:47:14,358 - INFO - Loaded progress for user: default
+2026-04-10 21:49:34,503 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:49:34,504 - INFO - Loaded 10 chapters
+2026-04-10 21:49:34,504 - INFO - Loaded progress for user: default
+2026-04-10 21:50:07,127 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:50:07,128 - INFO - Loaded 10 chapters
+2026-04-10 21:50:07,128 - INFO - Loaded progress for user: default
+2026-04-10 21:50:43,711 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:50:43,712 - INFO - Loaded 10 chapters
+2026-04-10 21:50:43,712 - INFO - Loaded progress for user: default
+2026-04-10 21:52:14,950 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:52:14,951 - INFO - Loaded 10 chapters
+2026-04-10 21:52:14,951 - INFO - Loaded progress for user: default
+2026-04-10 21:56:26,611 - INFO - Saved progress to user_progress.json
+2026-04-10 21:56:30,845 - INFO - Saved progress to user_progress.json
+2026-04-10 21:56:30,847 - INFO - Saved progress to user_progress.json
+2026-04-10 21:56:30,847 - INFO - Session lasted 14.5 minutes
+2026-04-10 21:56:32,809 - INFO - Configuration loaded from config.yaml
+2026-04-10 21:56:32,809 - INFO - Loaded 10 chapters
+2026-04-10 21:56:32,809 - INFO - Loaded progress for user: default
+2026-04-10 21:58:44,661 - INFO - Viewed example args_kwargs in chapter 04
+2026-04-10 22:04:57,208 - INFO - Configuration loaded from config.yaml
+2026-04-10 22:04:57,209 - INFO - Loaded 10 chapters
+2026-04-10 22:04:57,209 - INFO - Loaded progress for user: default
+2026-04-10 22:06:13,703 - INFO - Configuration loaded from config.yaml
+2026-04-10 22:06:13,704 - INFO - Loaded 10 chapters
+2026-04-10 22:06:13,704 - INFO - Loaded progress for user: default
+2026-04-10 22:09:38,645 - INFO - Configuration loaded from config.yaml
+2026-04-10 22:09:38,645 - INFO - Loaded 10 chapters
+2026-04-10 22:09:38,646 - INFO - Loaded progress for user: default
+2026-04-10 22:12:21,467 - INFO - Configuration loaded from config.yaml
+2026-04-10 22:12:21,468 - INFO - Loaded 10 chapters
+2026-04-10 22:12:21,469 - INFO - Loaded progress for user: default
+2026-04-10 22:13:33,021 - INFO - Configuration loaded from config.yaml
+2026-04-10 22:13:33,022 - INFO - Loaded 10 chapters
+2026-04-10 22:13:33,044 - INFO - Loaded progress for user: default
+2026-04-10 22:16:56,877 - INFO - Saved progress to user_progress.json
+2026-04-10 22:16:59,018 - INFO - Saved progress to user_progress.json
+2026-04-10 22:16:59,018 - INFO - Saved progress to user_progress.json
+2026-04-10 22:16:59,019 - INFO - Session lasted 20.4 minutes
+2026-04-10 22:17:01,242 - INFO - Configuration loaded from config.yaml
+2026-04-10 22:17:01,243 - INFO - Loaded 10 chapters
+2026-04-10 22:17:01,243 - INFO - Loaded progress for user: default
+2026-04-10 22:17:07,909 - INFO - Viewed example loop_control in chapter 03
+2026-04-10 22:48:48,458 - INFO - Configuration loaded from config.yaml
+2026-04-10 22:48:48,459 - INFO - Loaded 11 questions from quizzes/quiz_ch10.json
+2026-04-10 22:48:48,461 - INFO - Loaded 10 chapters
+2026-04-10 22:48:48,462 - INFO - Loaded progress for user: default
+2026-04-10 22:49:22,045 - INFO - Saved progress to user_progress.json
+2026-04-10 22:49:22,067 - INFO - Saved progress to user_progress.json
+2026-04-10 22:49:22,067 - INFO - Session lasted 32.3 minutes
+2026-04-10 22:49:27,996 - INFO - Configuration loaded from config.yaml
+2026-04-10 22:49:27,997 - INFO - Loaded 11 questions from quizzes/quiz_ch10.json
+2026-04-10 22:49:27,998 - INFO - Loaded 11 questions from quizzes/quiz_ch01.json
+2026-04-10 22:49:27,998 - INFO - Loaded 11 questions from quizzes/quiz_ch02.json
+2026-04-10 22:49:27,999 - INFO - Loaded 11 questions from quizzes/quiz_ch03.json
+2026-04-10 22:49:27,999 - INFO - Loaded 11 questions from quizzes/quiz_ch04.json
+2026-04-10 22:49:27,999 - INFO - Loaded 11 questions from quizzes/quiz_ch05.json
+2026-04-10 22:49:28,000 - INFO - Loaded 11 questions from quizzes/quiz_ch06.json
+2026-04-10 22:49:28,000 - INFO - Loaded 11 questions from quizzes/quiz_ch07.json
+2026-04-10 22:49:28,000 - INFO - Loaded 11 questions from quizzes/quiz_ch08.json
+2026-04-10 22:49:28,001 - INFO - Loaded 11 questions from quizzes/quiz_ch09.json
+2026-04-10 22:49:28,001 - INFO - Loaded 10 chapters
+2026-04-10 22:49:28,001 - INFO - Loaded progress for user: default
+2026-04-10 22:49:39,180 - INFO - Configuration loaded from config.yaml
+2026-04-10 22:49:39,181 - INFO - Loaded 11 questions from quizzes/quiz_ch10.json
+2026-04-10 22:49:39,182 - INFO - Loaded 11 questions from quizzes/quiz_ch01.json
+2026-04-10 22:49:39,182 - INFO - Loaded 11 questions from quizzes/quiz_ch02.json
+2026-04-10 22:49:39,182 - INFO - Loaded 11 questions from quizzes/quiz_ch03.json
+2026-04-10 22:49:39,182 - INFO - Loaded 11 questions from quizzes/quiz_ch04.json
+2026-04-10 22:49:39,183 - INFO - Loaded 11 questions from quizzes/quiz_ch05.json
+2026-04-10 22:49:39,183 - INFO - Loaded 11 questions from quizzes/quiz_ch06.json
+2026-04-10 22:49:39,183 - INFO - Loaded 11 questions from quizzes/quiz_ch07.json
+2026-04-10 22:49:39,184 - INFO - Loaded 11 questions from quizzes/quiz_ch08.json
+2026-04-10 22:49:39,184 - INFO - Loaded 11 questions from quizzes/quiz_ch09.json
+2026-04-10 22:49:39,184 - INFO - Loaded 10 chapters
+2026-04-10 22:49:39,184 - INFO - Loaded progress for user: default
+2026-04-10 22:49:52,786 - INFO - Configuration loaded from config.yaml
+2026-04-10 22:49:52,786 - INFO - Loaded 11 questions from quizzes/quiz_ch10.json
+2026-04-10 22:49:52,787 - INFO - Loaded 11 questions from quizzes/quiz_ch01.json
+2026-04-10 22:49:52,787 - INFO - Loaded 11 questions from quizzes/quiz_ch02.json
+2026-04-10 22:49:52,787 - INFO - Loaded 11 questions from quizzes/quiz_ch03.json
+2026-04-10 22:49:52,788 - INFO - Loaded 11 questions from quizzes/quiz_ch04.json
+2026-04-10 22:49:52,788 - INFO - Loaded 11 questions from quizzes/quiz_ch05.json
+2026-04-10 22:49:52,788 - INFO - Loaded 11 questions from quizzes/quiz_ch06.json
+2026-04-10 22:49:52,789 - INFO - Loaded 11 questions from quizzes/quiz_ch07.json
+2026-04-10 22:49:52,789 - INFO - Loaded 11 questions from quizzes/quiz_ch08.json
+2026-04-10 22:49:52,789 - INFO - Loaded 11 questions from quizzes/quiz_ch09.json
+2026-04-10 22:49:52,789 - INFO - Loaded 10 chapters
+2026-04-10 22:49:52,789 - INFO - Loaded progress for user: default
+2026-04-10 22:50:05,456 - INFO - Configuration loaded from config.yaml
+2026-04-10 22:50:05,456 - INFO - Loaded 11 questions from quizzes/quiz_ch10.json
+2026-04-10 22:50:05,457 - INFO - Loaded 11 questions from quizzes/quiz_ch01.json
+2026-04-10 22:50:05,457 - INFO - Loaded 11 questions from quizzes/quiz_ch02.json
+2026-04-10 22:50:05,458 - INFO - Loaded 11 questions from quizzes/quiz_ch03.json
+2026-04-10 22:50:05,458 - INFO - Loaded 11 questions from quizzes/quiz_ch04.json
+2026-04-10 22:50:05,458 - INFO - Loaded 11 questions from quizzes/quiz_ch05.json
+2026-04-10 22:50:05,459 - INFO - Loaded 11 questions from quizzes/quiz_ch06.json
+2026-04-10 22:50:05,459 - INFO - Loaded 11 questions from quizzes/quiz_ch07.json
+2026-04-10 22:50:05,460 - INFO - Loaded 11 questions from quizzes/quiz_ch08.json
+2026-04-10 22:50:05,460 - INFO - Loaded 11 questions from quizzes/quiz_ch09.json
+2026-04-10 22:50:05,460 - INFO - Loaded 10 chapters
+2026-04-10 22:50:05,460 - INFO - Loaded progress for user: default
+2026-04-10 22:50:19,644 - INFO - Configuration loaded from config.yaml
+2026-04-10 22:50:19,646 - INFO - Loaded 11 questions from quizzes/quiz_ch10.json
+2026-04-10 22:50:19,647 - INFO - Loaded 11 questions from quizzes/quiz_ch01.json
+2026-04-10 22:50:19,648 - INFO - Loaded 11 questions from quizzes/quiz_ch02.json
+2026-04-10 22:50:19,649 - INFO - Loaded 11 questions from quizzes/quiz_ch03.json
+2026-04-10 22:50:19,650 - INFO - Loaded 11 questions from quizzes/quiz_ch04.json
+2026-04-10 22:50:19,651 - INFO - Loaded 11 questions from quizzes/quiz_ch05.json
+2026-04-10 22:50:19,652 - INFO - Loaded 11 questions from quizzes/quiz_ch06.json
+2026-04-10 22:50:19,653 - INFO - Loaded 11 questions from quizzes/quiz_ch07.json
+2026-04-10 22:50:19,654 - INFO - Loaded 11 questions from quizzes/quiz_ch08.json
+2026-04-10 22:50:19,655 - INFO - Loaded 11 questions from quizzes/quiz_ch09.json
+2026-04-10 22:50:19,656 - INFO - Loaded 10 chapters
+2026-04-10 22:50:19,656 - INFO - Loaded progress for user: default
+2026-04-10 23:05:02,777 - INFO - Configuration loaded from config.yaml
+2026-04-10 23:05:02,778 - INFO - Loaded 11 questions from quizzes/quiz_ch10.json
+2026-04-10 23:05:02,778 - INFO - Loaded 11 questions from quizzes/quiz_ch01.json
+2026-04-10 23:05:02,779 - INFO - Loaded 11 questions from quizzes/quiz_ch02.json
+2026-04-10 23:05:02,779 - INFO - Loaded 11 questions from quizzes/quiz_ch03.json
+2026-04-10 23:05:02,779 - INFO - Loaded 11 questions from quizzes/quiz_ch04.json
+2026-04-10 23:05:02,780 - INFO - Loaded 11 questions from quizzes/quiz_ch05.json
+2026-04-10 23:05:02,780 - INFO - Loaded 11 questions from quizzes/quiz_ch06.json
+2026-04-10 23:05:02,780 - INFO - Loaded 11 questions from quizzes/quiz_ch07.json
+2026-04-10 23:05:02,780 - INFO - Loaded 11 questions from quizzes/quiz_ch08.json
+2026-04-10 23:05:02,781 - INFO - Loaded 11 questions from quizzes/quiz_ch09.json
+2026-04-10 23:05:02,781 - INFO - Loaded 10 chapters
+2026-04-10 23:05:02,781 - INFO - Loaded progress for user: default
+2026-04-10 23:05:32,470 - INFO - Configuration loaded from config.yaml
+2026-04-10 23:05:32,471 - INFO - Loaded 11 questions from quizzes/quiz_ch10.json
+2026-04-10 23:05:32,471 - INFO - Loaded 11 questions from quizzes/quiz_ch01.json
+2026-04-10 23:05:32,471 - INFO - Loaded 11 questions from quizzes/quiz_ch02.json
+2026-04-10 23:05:32,472 - INFO - Loaded 11 questions from quizzes/quiz_ch03.json
+2026-04-10 23:05:32,472 - INFO - Loaded 11 questions from quizzes/quiz_ch04.json
+2026-04-10 23:05:32,472 - INFO - Loaded 11 questions from quizzes/quiz_ch05.json
+2026-04-10 23:05:32,473 - INFO - Loaded 11 questions from quizzes/quiz_ch06.json
+2026-04-10 23:05:32,473 - INFO - Loaded 11 questions from quizzes/quiz_ch07.json
+2026-04-10 23:05:32,473 - INFO - Loaded 11 questions from quizzes/quiz_ch08.json
+2026-04-10 23:05:32,473 - INFO - Loaded 11 questions from quizzes/quiz_ch09.json
+2026-04-10 23:05:32,474 - INFO - Loaded 10 chapters
+2026-04-10 23:05:32,474 - INFO - Loaded progress for user: default
+2026-04-10 23:06:06,544 - INFO - Configuration loaded from config.yaml
+2026-04-10 23:06:06,544 - INFO - Loaded 11 questions from quizzes/quiz_ch10.json
+2026-04-10 23:06:06,545 - INFO - Loaded 11 questions from quizzes/quiz_ch01.json
+2026-04-10 23:06:06,545 - INFO - Loaded 11 questions from quizzes/quiz_ch02.json
+2026-04-10 23:06:06,545 - INFO - Loaded 11 questions from quizzes/quiz_ch03.json
+2026-04-10 23:06:06,546 - INFO - Loaded 11 questions from quizzes/quiz_ch04.json
+2026-04-10 23:06:06,546 - INFO - Loaded 11 questions from quizzes/quiz_ch05.json
+2026-04-10 23:06:06,546 - INFO - Loaded 11 questions from quizzes/quiz_ch06.json
+2026-04-10 23:06:06,547 - INFO - Loaded 11 questions from quizzes/quiz_ch07.json
+2026-04-10 23:06:06,547 - INFO - Loaded 11 questions from quizzes/quiz_ch08.json
+2026-04-10 23:06:06,547 - INFO - Loaded 11 questions from quizzes/quiz_ch09.json
+2026-04-10 23:06:06,547 - INFO - Loaded 10 chapters
+2026-04-10 23:06:06,547 - INFO - Loaded progress for user: default
+2026-04-10 23:06:46,864 - INFO - Configuration loaded from config.yaml
+2026-04-10 23:06:46,864 - INFO - Loaded 11 questions from quizzes/quiz_ch10.json
+2026-04-10 23:06:46,865 - INFO - Loaded 11 questions from quizzes/quiz_ch01.json
+2026-04-10 23:06:46,865 - INFO - Loaded 11 questions from quizzes/quiz_ch02.json
+2026-04-10 23:06:46,865 - INFO - Loaded 11 questions from quizzes/quiz_ch03.json
+2026-04-10 23:06:46,865 - INFO - Loaded 11 questions from quizzes/quiz_ch04.json
+2026-04-10 23:06:46,866 - INFO - Loaded 11 questions from quizzes/quiz_ch05.json
+2026-04-10 23:06:46,866 - INFO - Loaded 11 questions from quizzes/quiz_ch06.json
+2026-04-10 23:06:46,866 - INFO - Loaded 11 questions from quizzes/quiz_ch07.json
+2026-04-10 23:06:46,866 - INFO - Loaded 11 questions from quizzes/quiz_ch08.json
+2026-04-10 23:06:46,867 - INFO - Loaded 11 questions from quizzes/quiz_ch09.json
+2026-04-10 23:06:46,867 - INFO - Loaded 10 chapters
+2026-04-10 23:06:46,867 - INFO - Loaded progress for user: default
+2026-04-10 23:09:27,035 - INFO - Saved progress to user_progress.json
+2026-04-10 23:09:27,058 - INFO - Saved progress to user_progress.json
+2026-04-10 23:09:27,058 - INFO - Session lasted 2.7 minutes

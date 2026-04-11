@@ -1,0 +1,129 @@
+{
+  "chapter_number": "04",
+  "title": "Chapter 04 Quiz",
+  "passing_score": 70,
+  "question_count": 11,
+  "questions": [
+    {
+      "question": "What module or function is imported/used in the code example?",
+      "options": [
+        "greet(name):",
+        "Random greet(name):_alternate",
+        "Related greet(name):_module",
+        "Python standard library"
+      ],
+      "answer": 1,
+      "explanation": "The example uses greet(name):"
+    },
+    {
+      "question": "What keyword is used to define a function?",
+      "options": [
+        "func",
+        "define",
+        "function",
+        "def"
+      ],
+      "answer": 4,
+      "explanation": "The 'def' keyword defines functions in Python"
+    },
+    {
+      "question": "What is a Python module?",
+      "options": [
+        "A compiled executable",
+        "A file containing Python code",
+        "A database connection",
+        "A network protocol"
+      ],
+      "answer": 2,
+      "explanation": "Modules are files containing Python code that can be imported"
+    },
+    {
+      "question": "Which character starts a comment in Python?",
+      "options": [
+        "//",
+        "/*",
+        "#",
+        "--"
+      ],
+      "answer": 3,
+      "explanation": "The # symbol starts a comment in Python"
+    },
+    {
+      "question": "Which keyword defines a function?",
+      "options": [
+        "func",
+        "define",
+        "def",
+        "function"
+      ],
+      "answer": 3,
+      "explanation": "The def keyword is used to define functions."
+    },
+    {
+      "question": "What are *args used for?",
+      "options": [
+        "Keyword arguments",
+        "Variable positional arguments",
+        "Default arguments",
+        "Named arguments"
+      ],
+      "answer": 2,
+      "explanation": "*args collects variable positional arguments into a tuple."
+    },
+    {
+      "question": "What are **kwargs used for?",
+      "options": [
+        "Positional arguments",
+        "Variable keyword arguments",
+        "Required arguments",
+        "Default arguments"
+      ],
+      "answer": 2,
+      "explanation": "**kwargs collects variable keyword arguments into a dictionary."
+    },
+    {
+      "question": "What keyword creates anonymous functions?",
+      "options": [
+        "lambda",
+        "anonymous",
+        "fn",
+        "func"
+      ],
+      "answer": 1,
+      "explanation": "The lambda keyword creates anonymous (unnamed) functions."
+    },
+    {
+      "question": "Which function applies a function to all items?",
+      "options": [
+        "map()",
+        "apply()",
+        "do()",
+        "run()"
+      ],
+      "answer": 1,
+      "explanation": "map() applies a function to each item in an iterable."
+    },
+    {
+      "question": "Which function filters items based on a condition?",
+      "options": [
+        "filter()",
+        "select()",
+        "where()",
+        "extract()"
+      ],
+      "answer": 1,
+      "explanation": "filter() constructs an iterator from items where the function returns true."
+    },
+    {
+      "question": "What does the LEGB rule refer to?",
+      "options": [
+        "Loop structures",
+        "Variable scope",
+        "Function arguments",
+        "Module imports"
+      ],
+      "answer": 2,
+      "explanation": "LEGB rules the order of variable scope: Local, Enclosing, Global, Built-in."
+    }
+  ]
+}

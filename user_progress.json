@@ -1,17 +1,39 @@
 {
   "username": "default",
-  "completed_chapters": [],
+  "completed_chapters": [
+    "04",
+    "01",
+    "02",
+    "03"
+  ],
   "viewed_examples": {
     "01": [
-      "zen_of_python"
+      "zen_of_python",
+      "hello_world",
+      "comments"
     ],
     "02": [
-      "dictionaries"
+      "dictionaries",
+      "lists"
+    ],
+    "04": [
+      "lambda_map_filter",
+      "args_kwargs"
+    ],
+    "03": [
+      "for_while",
+      "if_else",
+      "loop_control"
     ]
   },
-  "quiz_scores": {},
+  "quiz_scores": {
+    "04": 100.0,
+    "01": 100.0,
+    "02": 100.0,
+    "03": 90.9090909090909
+  },
   "example_ratings": {},
   "favorites": [],
-  "last_session": null,
-  "total_time_spent": 71
+  "last_session": "2026-04-10T21:36:40.150102",
+  "total_time_spent": 166
 }

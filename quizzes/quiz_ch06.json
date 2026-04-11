@@ -1,0 +1,129 @@
+{
+  "chapter_number": "06",
+  "title": "Chapter 06 Quiz",
+  "passing_score": 70,
+  "question_count": 11,
+  "questions": [
+    {
+      "question": "What keyword is used to define a function?",
+      "options": [
+        "func",
+        "define",
+        "function",
+        "def"
+      ],
+      "answer": 4,
+      "explanation": "The 'def' keyword defines functions in Python"
+    },
+    {
+      "question": "What is a Python module?",
+      "options": [
+        "A compiled executable",
+        "A file containing Python code",
+        "A database connection",
+        "A network protocol"
+      ],
+      "answer": 2,
+      "explanation": "Modules are files containing Python code that can be imported"
+    },
+    {
+      "question": "Which character starts a comment in Python?",
+      "options": [
+        "//",
+        "/*",
+        "#",
+        "--"
+      ],
+      "answer": 3,
+      "explanation": "The # symbol starts a comment in Python"
+    },
+    {
+      "question": "Which block handles exceptions?",
+      "options": [
+        "except",
+        "error",
+        "catch",
+        "handle"
+      ],
+      "answer": 1,
+      "explanation": "The except block handles exceptions."
+    },
+    {
+      "question": "Which block always executes?",
+      "options": [
+        "finally",
+        "always",
+        "end",
+        "done"
+      ],
+      "answer": 1,
+      "explanation": "The finally block always executes, regardless of exceptions."
+    },
+    {
+      "question": "What happens when dividing by zero?",
+      "options": [
+        "Returns 0",
+        "Returns None",
+        "Raises ZeroDivisionError",
+        "Returns infinity"
+      ],
+      "answer": 3,
+      "explanation": "Division by zero raises a ZeroDivisionError."
+    },
+    {
+      "question": "How do you catch multiple exception types?",
+      "options": [
+        "Multiple except blocks",
+        "except (Exception1, Exception2)",
+        "catch {Exception1, Exception2}",
+        "one except for all"
+      ],
+      "answer": 2,
+      "explanation": "Use except (Exception1, Exception2) to catch multiple types."
+    },
+    {
+      "question": "What keyword raises an exception?",
+      "options": [
+        "throw",
+        "raise",
+        "error",
+        "trigger"
+      ],
+      "answer": 2,
+      "explanation": "The raise keyword is used to manually raise exceptions."
+    },
+    {
+      "question": "What is the base exception class?",
+      "options": [
+        "Error",
+        "Exception",
+        "BaseError",
+        "StandardError"
+      ],
+      "answer": 2,
+      "explanation": "Exception is the base class for all built-in exceptions."
+    },
+    {
+      "question": "Which block contains risky code?",
+      "options": [
+        "try",
+        "risky",
+        "danger",
+        "risky"
+      ],
+      "answer": 1,
+      "explanation": "The try block contains code that might raise exceptions."
+    },
+    {
+      "question": "How do you create a custom exception?",
+      "options": [
+        "class CustomError(Exception)",
+        "def CustomError(Exception)",
+        "class Exception(CustomError)",
+        "def Exception(CustomError)"
+      ],
+      "answer": 1,
+      "explanation": "Custom exceptions inherit from Exception: class CustomError(Exception)."
+    }
+  ]
+}
